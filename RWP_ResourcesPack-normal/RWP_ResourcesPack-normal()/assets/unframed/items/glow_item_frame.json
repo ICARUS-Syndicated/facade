@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "unframed:item/glow_item_frame"
+  }
+}

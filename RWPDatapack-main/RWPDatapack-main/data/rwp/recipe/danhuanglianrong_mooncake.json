@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " X ",
+    "XZX",
+    "YPY"
+  ],
+  "key": {
+    "X": "minecraft:wheat",
+	"Y": "minecraft:sugar",
+	"Z": "minecraft:egg",
+    "P": "minecraft:beetroot_seeds"
+  },
+  "result": {
+	  "id":"minecraft:cookie",
+	  "count":3,
+	  "components":{
+		"minecraft:item_name":{"text":"蛋黄莲蓉月饼","color":"#dec64c","bold":true},
+		"minecraft:item_model":"rwp:danhuanglianrong_mooncake",
+		"minecraft:lore":[{"text":"================","color":"#fef38e","italic":false},{"text":"莲蓉，清甜恰到好处，","color":"#fef38e","italic":false},{"text":" 蛋黄的咸香综合了那份美好","color":"#fef38e","italic":false},{"text":"================","color":"#fef38e","italic":false}],
+		"minecraft:food":{"can_always_eat":true,"nutrition":3,"saturation":2},
+		"minecraft:consumable":{"on_consume_effects":[{"type":"apply_effects","effects":[{"id":"speed","duration":300,"amplifier":0}]}]}
+	  }
+	}
+}

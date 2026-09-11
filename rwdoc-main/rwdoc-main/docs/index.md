@@ -1,0 +1,28 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "Redwhite docs"
+  text: "是红白阁的文档库喵"
+  tagline: "兼容多版本的1.21.11 Minecraft 原版生存服务器<br>运营时长超过五年，更迭过多代腐竹"
+  image:
+    src: /logo.png
+    alt: redwhite
+  actions:
+    - theme: brand
+      text: 游玩教程
+      link: /regisbs
+    - theme: alt
+      text: 更新日志
+      link: /updatelog
+
+features:
+  - title: 自主商店
+    details: 支持玩家创建个人商店，方便社区成员间的轻松交易与经济系统建设
+  - title: 酿酒系统
+    details: 体验拥有独特配方和机制的高度定制酿酒系统，为您的游戏玩法增添深度与乐趣
+  - title: 和谐友爱
+    details: 沉浸在和谐友好的氛围中，玩家互帮互助，重拾对MC最初的热爱
+---
+

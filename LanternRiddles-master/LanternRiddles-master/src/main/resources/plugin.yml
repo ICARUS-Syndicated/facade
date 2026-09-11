@@ -1,0 +1,14 @@
+name: LanternRiddles
+version: '1.0-SNAPSHOT'
+main: org.rwp.lanternRiddles.LanternRiddles
+api-version: '1.21'
+
+commands:
+  post:               # 指令名称
+    description: post
+    usage: /post []
+    permission-message: 你没有权限使用此指令！
+  buildpurpose:
+    description: buildpurpose
+    usage: /buildpurpose []
+    permission-message: 你没有权限使用此指令！

@@ -1,0 +1,27 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "PTP",
+    "XZX",
+    "YXY"
+  ],
+  "key": {
+    "X": "minecraft:wheat",
+	"Y": "minecraft:sugar",
+	"Z": "minecraft:enchanted_golden_apple",
+	"P": "minecraft:redstone",
+	"T": "minecraft:creeper_banner_pattern"
+  },
+  "result": {
+	  "id":"minecraft:cookie",
+	  "count":2,
+	  "components":{
+		"minecraft:item_name":[{"text":"红","color":"#ff5757","bold":true},{"text":"白","color":"#ffffff","bold":true},{"text":"之月","color":"#fff4c9","bold":true}],
+		"minecraft:item_model":"rwp:rw_mooncake",
+		"minecraft:enchantment_glint_override":true,
+		"minecraft:lore":[{"text":"================","color":"#ff8493","italic":false},{"text":"这是红白的大家","color":"#ffa7b2","italic":false},{"text":"  一同见证的，","color":"#ffced4","italic":false},{"text":"     明月。","color":"#ffeeee","italic":false},{"text":"================","color":"#ffffff","italic":false}],
+		"minecraft:food":{"can_always_eat":true,"nutrition":3,"saturation":2},
+		"minecraft:consumable":{"on_consume_effects":[{"type":"apply_effects","effects":[{"id":"regeneration","duration":600,"amplifier":3},{"id":"absorption","duration":600,"amplifier":4},{"id":"resistance","duration":1200,"amplifier":4},{"id":"glowing","duration":600,"amplifier":0},{"id":"strength","duration":200,"amplifier":1}]}]}
+	  }
+	}
+}

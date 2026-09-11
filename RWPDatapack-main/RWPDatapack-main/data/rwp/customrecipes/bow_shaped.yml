@@ -1,0 +1,42 @@
+type: shaped
+key: bow_to_flobow
+pattern:
+  - " C "
+  - " A "
+  - " B "
+ingredients:
+  A:
+    material: BOW
+    match-mode: material
+  B:
+    material: WHITE_DYE
+    components:
+      display-name: "<light_purple><bold><!i>往世</bold>"
+      item-model: "rwskins:flower_plate"
+      lore:
+        - "<gray><!i>往事已成空</gray>"
+      glint: true
+  C:
+    material: NETHER_STAR
+    match-mode: material
+    
+result:
+  material: BOW
+  amount: 1
+  components:
+    prefix: "<light_purple><bold><!i>飞花·<bold:false></light_purple>"
+    item-model: "rwskins:flobow"
+    maxdamage: 2026
+    lore:
+      - "<dark_purple><!i>唯有飞花驻"
+special:
+  target-material: BOW
+  source-slot: 4
+  copy-input: true
+  amount: 1
+  components:
+    prefix: "<light_purple><bold><!i>飞花·<bold:false></light_purple>"
+    item-model: "rwskins:flobow"
+    maxdamage: 2026
+    lore:
+      - "<dark_purple><!i>唯有飞花驻"

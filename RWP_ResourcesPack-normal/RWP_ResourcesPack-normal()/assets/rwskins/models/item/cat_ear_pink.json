@@ -1,0 +1,11 @@
+{
+    "parent": "minecraft:item/amethyst_bud",
+    "textures": {
+        "layer0": "rwskins:item/cat_ear_pink"
+    },
+    "display": {
+    "fixed": {
+      "translation": [ 0, 6, 0 ]
+    }
+  }
+}

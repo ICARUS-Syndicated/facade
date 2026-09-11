@@ -1,0 +1,9 @@
+name: SellTheInv
+version: '1.0-SNAPSHOT'
+main: org.RWP.sellTheInv.SellTheInv
+api-version: '1.21'
+commands:
+  sellbag:
+    description: sell the bag
+    usage: /<command>
+    permission: SellTheInv.sellbag

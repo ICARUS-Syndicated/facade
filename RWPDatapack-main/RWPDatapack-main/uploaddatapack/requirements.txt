@@ -1,0 +1,2 @@
+mcsmapi>=0.1.8
+mcrcon>=0.7.0

@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " X ",
+    "XYX",
+    " X "
+  ],
+  "key": {
+    "X": "minecraft:wheat",
+	  "Y": "minecraft:sugar"
+  },
+  "result": {
+	  "id":"minecraft:cookie",
+	  "count":3,
+	  "components":{
+		"minecraft:item_name":{"text":"月饼","color":"#d54907","bold":true},
+		"minecraft:item_model":"rwp:normal_mooncake",
+		"minecraft:lore":[{"text":"================","color":"#ec946b","italic":false},{"text":"中秋节的必备，","color":"#ec946b","italic":false},{"text":" 团圆的具象","color":"#ec946b","italic":false},{"text":"================","color":"#ec946b","italic":false}],
+		"minecraft:food":{"can_always_eat":true,"nutrition":3,"saturation":2}
+	  }
+	}
+}

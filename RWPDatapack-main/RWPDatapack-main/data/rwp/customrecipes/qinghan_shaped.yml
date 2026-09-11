@@ -1,0 +1,46 @@
+type: shaped
+key: nether_sword_to_qinghan
+pattern:
+  - " C "
+  - "DAD"
+  - " B "
+ingredients:
+  A:
+    material: NETHERITE_SWORD
+    match-mode: material
+  B:
+    material: BLUE_DYE
+    components:
+      display-name: "<aqua><bold><!i>霜雪锻片</bold></aqua>"
+      item-model: "rwskins:snow_plate"
+      lore:
+        - "<gray><!i>凌山霜，赴风雪</gray>"
+      glint: true
+  C:
+    material: DIAMOND
+    match-mode: material
+  D:
+    material: EMERALD
+    match-mode: material
+    
+result:
+  material: NETHERITE_SWORD
+  amount: 1
+  components:
+    prefix: "<aqua><bold><!i>清寒·<bold:false></aqua>"
+    item-model: "rwskins:qinghan_sword"
+    maxdamage: 2026
+    lore:
+      - "<color:#ACE1DD><!i>碧玉落清寒"
+  
+special:
+  target-material: NETHERITE_SWORD
+  source-slot: 4
+  copy-input: true
+  amount: 1
+  components:
+    prefix: "<aqua><bold><!i>清寒·<bold:false></aqua>"
+    item-model: "rwskins:qinghan_sword"
+    maxdamage: 2026
+    lore:
+      - "<color:#ACE1DD><!i>碧玉落清寒"

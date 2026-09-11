@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " X ",
+    "Y Y",
+    "XYX"
+  ],
+  "key": {
+    "X": "minecraft:wheat",
+	"Y": "minecraft:sugar"
+  },
+  "result": {
+	  "id":"minecraft:cookie",
+	  "count":3,
+	  "components":{
+		"minecraft:item_name":{"text":"苏式月饼","color":"#fcdfc5","bold":true},
+		"minecraft:item_model":"rwp:sushizhima_mooncake",
+		"minecraft:lore":[{"text":"================","color":"#a28b76","italic":false},{"text":"一直觉得苏月更像月亮，","color":"#a28b76","italic":false},{"text":" 像被缀上了纹路","color":"#a28b76","italic":false},{"text":"================","color":"#a28b76","italic":false}],
+		"minecraft:food":{"can_always_eat":true,"nutrition":3,"saturation":2},
+		"minecraft:consumable":{"on_consume_effects":[{"type":"apply_effects","effects":[{"id":"jump_boost","duration":200}]}]}
+	  }
+	}
+}

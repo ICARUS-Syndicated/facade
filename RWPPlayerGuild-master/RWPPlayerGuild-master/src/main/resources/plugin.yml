@@ -1,0 +1,4 @@
+name: RWPPlugin
+version: '1.0-SNAPSHOT'
+main: org.RWP.rWPP.RWPP
+api-version: '1.21'

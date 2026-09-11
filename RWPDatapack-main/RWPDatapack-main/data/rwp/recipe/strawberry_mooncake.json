@@ -1,0 +1,24 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " X ",
+    "XZX",
+    "YXY"
+  ],
+  "key": {
+    "X": "minecraft:wheat",
+	"Y": "minecraft:sugar",
+	"Z": "minecraft:sweet_berries"
+  },
+  "result": {
+	  "id":"minecraft:cookie",
+	  "count":3,
+	  "components":{
+		"minecraft:item_name":{"text":"浆果月饼","color":"#db235d","bold":true},
+		"minecraft:item_model":"rwp:strawberry_mooncake",
+		"minecraft:lore":[{"text":"================","color":"#ee6a6a","italic":false},{"text":"鲜嫩的果酱在口中炸开，","color":"#ee6a6a","italic":false},{"text":" 甜与幸福笼罩在舌尖","color":"#ee6a6a","italic":false},{"text":"================","color":"#ee6a6a","italic":false}],
+		"minecraft:food":{"can_always_eat":true,"nutrition":3,"saturation":2},
+		"minecraft:consumable":{"on_consume_effects":[{"type":"apply_effects","effects":[{"id":"absorption","duration":100,"amplifier":0}]}]}
+	  }
+	}
+}

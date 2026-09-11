@@ -1,0 +1,9 @@
+name: ChangePoints
+version: '1.0-SNAPSHOT'
+main: org.RWP.changePoints.ChangePoints
+api-version: '1.21'
+commands:
+  upoints:
+    description: update points
+    usage: /<command>
+    permission: UpdatePoints.upoints.use

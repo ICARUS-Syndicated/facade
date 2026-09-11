@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "Z",
+    "X"
+  ],
+  "key": {
+    "X": "minecraft:phantom_membrane",
+	  "Z": "minecraft:item_frame"
+  },
+  "result": {
+	  "id":"minecraft:item_frame",
+	  "count":1,
+	  "components":{
+		"minecraft:item_name":{"text":"隐形物品展示框","color":"#ffffee","bold":true},
+		"minecraft:item_model":"unframed:item_frame",
+		"minecraft:lore":[{"text":"隐藏边框的物品展示框","color":"#fef38e","italic":false}],
+		"minecraft:entity_data":{"id":"item_frame","Invisible":true}
+	  }
+	}
+}

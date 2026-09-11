@@ -1,0 +1,11 @@
+server:
+  port: 21856
+  host: "localhost"
+
+security:
+  token: "7239323256071658"
+  authmethod: "sha256"
+
+paths:
+  uploadDir: "./uploads"
+  resourceFile: "./resources/resource.zip"

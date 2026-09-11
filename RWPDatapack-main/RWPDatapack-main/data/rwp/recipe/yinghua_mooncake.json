@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "PXP",
+    "XZX",
+    "YXY"
+  ],
+  "key": {
+    "X": "minecraft:wheat",
+	"Y": "minecraft:sugar",
+	"Z": "minecraft:cherry_leaves",
+	"P": "minecraft:pink_petals"
+  },
+  "result": {
+	  "id":"minecraft:cookie",
+	  "count":3,
+	  "components":{
+		"minecraft:item_name":{"text":"樱花月饼","color":"#FF99CC","bold":true},
+		"minecraft:item_model":"rwp:yinghua_mooncake",
+		"minecraft:lore":[{"text":"================","color":"#d199cc","italic":false},{"text":"入口不失樱花的香甜，","color":"#d199cc","italic":false},{"text":" 承载着中秋的思念","color":"#d199cc","italic":false},{"text":"================","color":"#d199cc","italic":false}],
+		"minecraft:food":{"can_always_eat":true,"nutrition":3,"saturation":2},
+		"minecraft:consumable":{"on_consume_effects":[{"type":"apply_effects","effects":[{"id":"regeneration","duration":200}]}]}
+	  }
+	}
+}

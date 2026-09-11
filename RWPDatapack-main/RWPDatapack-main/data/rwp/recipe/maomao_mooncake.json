@@ -1,0 +1,33 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " Y ",
+    "YZY",
+    "XXX"
+  ],
+  "key": {
+    "X": "minecraft:wheat",
+	"Y": "minecraft:short_grass",
+	"Z": "minecraft:cod"
+  },
+  "result": {
+	  "id":"minecraft:cod",
+	  "count":3,
+	  "components":{
+		"minecraft:item_name":{"text":"猫饼","color":"#1efa7e","bold":true},
+		"minecraft:item_model":"rwp:maomao_mooncake",
+		"minecraft:lore":[
+			{"text":"================================","color":"#9dfaa7","italic":false},
+			{"text":"这么大的日子，小猫咪也要有自己的月饼！","color":"#9dfaa7","italic":false},
+			{"text":" 先用一些谷物打底~","color":"#9dfaa7","italic":false},
+			{"text":" 上面再盖一层猫咪爱吃的嫩草~","color":"#9dfaa7","italic":false},
+			{"text":" 中间是什么？","color":"#9dfaa7","italic":false},
+			{"text":" 这是个秘密哦~","color":"#9dfaa7","italic":false},
+			{"text":" 要不你来尝一口？","color":"#9dfaa7","italic":false},
+			{"text":" ————来自爱猫协会皇帝（划掉）协会长洛颜","color":"#9dfaa7","italic":false},
+			{"text":"================================","color":"#9dfaa7","italic":false}],
+		"minecraft:food":{"can_always_eat":true,"nutrition":3,"saturation":2},
+		"minecraft:consumable":{"on_consume_effects":[{"type":"apply_effects","effects":[{"id":"slow_falling","duration":300}]}]}
+	  }
+	}
+}

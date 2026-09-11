@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>喵</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="alert-container"></div>
+
+        <main>
+            <div class="card">
+                <div class="card-title">
+                    <span class="material-icons">cloud_upload</span>
+
+                    <h2>上传</h2>
+                </div>
+                <div class="card-content">
+                    <div class="form-group">
+                        <label class="form-label">认证令牌</label>
+                        <div class="text-field">
+                            <input type="password" id="token-input" placeholder="输入认证令牌" value="">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">选择文件</label>
+                        <div class="file-input">
+                            <input type="file" id="file-input" accept=".zip">
+                            <label for="file-input" class="file-input-label">
+                                <span class="material-icons">attach_file</span>
+                                <span id="file-name">选择resource.zip</span>
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="progress-bar">
+                        <div class="progress" id="upload-progress"></div>
+                    </div>
+                    
+                    <div class="actions">
+                        <button class="button outlined" id="upload-btn">
+                            <span class="material-icons">cloud_upload</span>
+                            上传文件
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">
+                    <span class="material-icons">cloud_download</span>
+                    <h2>管理</h2>
+                </div>
+                <div class="card-content">
+                    <div class="actions">
+                        <a href="http://localhost:21856/api/v1/down" class="button outlined" id="download-btn">
+                            <span class="material-icons">cloud_download</span>
+                            下载文件
+                        </a>
+                        <button class="button outlined" id="refresh-status-btn">
+                            <span class="material-icons">refresh</span>
+                            刷新状态
+                        </button>
+                        <button class="button warning" id="delete-btn">
+                            <span class="material-icons">delete_forever</span>
+                            删除文件
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">
+                    <span class="material-icons">info</span>
+                    <h2>文件状态</h2>
+                </div>
+                <div class="card-content">
+                    <p>查看服务器上资源文件的当前状态信息。</p>
+                    
+                    <div class="status-info">
+                        <div class="status-item">
+                            <div class="status-label">大小</div>
+                            <div class="status-value" id="file-size">--</div>
+                            <div class="status-value" id="file-size-formatted">--</div>
+                        </div>
+                        <div class="status-item">
+                            <div class="status-label">更新时间</div>
+                            <div class="status-value" id="last-updated">--</div>
+                            <div class="status-value" id="last-updated-formatted">--</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="confirmation-dialog" id="delete-confirmation">
+        <div class="confirmation-content">
+            <div class="confirmation-title">
+                <span class="material-icons">warning</span>
+                <h3>确认删除</h3>
+            </div>
+            <p>您确定要删除服务器上的资源文件吗？此操作不可恢复。</p>
+            <div class="confirmation-actions">
+                <button class="button outlined" id="cancel-delete-btn">取消</button>
+                <button class="button warning" id="confirm-delete-btn">确认删除</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

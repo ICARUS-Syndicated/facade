@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " X ",
+    "PZP",
+    "XYX"
+  ],
+  "key": {
+    "X": "minecraft:wheat",
+	"Y": "minecraft:sugar",
+	"Z": "minecraft:short_grass",
+    "P": "minecraft:birch_leaves"
+  },
+  "result": {
+	  "id":"minecraft:cookie",
+	  "count":3,
+	  "components":{
+		"minecraft:item_name":{"text":"抹茶月饼","color":"#6fa710","bold":true},
+		"minecraft:item_model":"rwp:mocha_mooncake",
+		"minecraft:lore":[{"text":"================","color":"#b1e559","italic":false},{"text":"略微苦涩的茶香，","color":"#b1e559","italic":false},{"text":" 回味却是余甘","color":"#b1e559","italic":false},{"text":"================","color":"#b1e559","italic":false}],
+		"minecraft:food":{"can_always_eat":true,"nutrition":3,"saturation":2},
+		"minecraft:consumable":{"on_consume_effects":[{"type":"apply_effects","effects":[{"id":"luck","duration":2000,"amplifier":1}]}]}
+	  }
+	}
+}

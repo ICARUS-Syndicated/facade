@@ -1,0 +1,1467 @@
+# !!! IMPORTANT: BreweryX configuration files do NOT support external comments! If you add any comments, they will be overwritten !!!
+# -- 饮品配方列表 --
+
+# 本节的指南可以在我们的Wiki中找到 - https://brewery.lumamc.net/guide/recipies/
+
+# enabled: 如果应该启用配方, 则为true. 如果应该禁用配方, 则设置为false
+
+# name[名称]：
+# 可以为 劣质/普通/优质 这三种质量的饮品命名
+# (可插入样式代码, 如:&6)
+
+# ingredients[配方列表]:
+# 格式为"材料名称/数量"
+# 手中持有物品的时候, 可以使用/brew ItemName来获取其物品id, 便于在配方中使用
+# (由于Bukkit不再支持物品ID, 物品ID已被弃用, 使用材料名称是唯一支持的做法)
+# 材料名称列表详见此处: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html [打不开需要挂梯子进行浏览]
+# 带有 'plugin:id' 标识的插件项目（目前支持 ExoticGarden, Slimefun, MMOItems 和 Brewery 插件）
+# 或者一个在上面定义的自定义物品
+
+# cookingtime[料理时间]:
+# 原料需要在炼药锅内烹制发酵的时间, 单位为现实分钟
+
+# distillruns[料理次数]:
+# 饮品需要在酿造台上需要蒸馏的次数 [0=无需蒸馏]
+
+# distilltime[蒸馏时间]:
+# 每次蒸馏所需要耗费的时间 [0=默认值为40秒] [MC默认则为20秒].
+
+# wood[木头]: 木桶所需要的木质
+# 0=任意     1=白桦木   2=橡木   3=丛林木   4=云杉木   5=金合欢木
+# 6=深色橡木  7=诡异菌  8=扭曲菌  9=红树木  10=樱花木   11=竹子   (12=切割铜)
+# MC的木桶默认为橡木桶
+
+# age[年龄]:
+# 饮品需要在木桶中熟成所需要的时间(单位为MC天数) [0=无需陈酿]
+
+# color[颜色]: 炼药锅产出基底的颜色，默认设置为青色
+# 可用的颜色:
+# DARK_RED[深红色]      RED[红色]       BRIGHT_RED[鲜红色]    ORANGE[橙色]
+# YELLOW[黄色]          PINK[粉色]      PURPLE[紫色]          BLUE[蓝色]
+# CYAN[青色]            WATER[浅蓝色]   TEAL[蓝绿色]          OLIVE[橄榄绿色]
+# GREEN[绿色]           LIME[鲜绿色]    BLACK[黑色]           GREY[灰色]
+# BRIGHT_GREY[亮灰色]   WHITE[白色]
+# 或者使用RGB颜色    [十六进制格式：例如 ‘99FF33’，需用引号括起来]
+# 又或者使用HTML颜色 [在互联网上搜索“HTML颜色”来获取更多颜色代码]
+
+# difficulty[酿造难度]:
+# 由1到10 难度依次递增：
+# 1 = 不需要非常精确的操作就可以制出优质饮品
+# 10 = 需要非常精确的操作才可以制出优质饮品
+
+# alcohol[酒精含量]:
+# 完美饮品中的绝对酒精含量，范围是 0-100（将直接作用于玩家，100意味着玩家会昏迷）
+
+# lore[描述文本]: 酿造完成后的物品描述文本列表(可用的格式化代码：例如 &6)
+# 根据物品品质，可以在行首添加特定的lore标记，如 + 表示差, ++ 表示普通, +++ 表示好
+
+# servercommands[服务器命令]:
+# 饮用饮品时，服务器将执行的命令列表
+# 可以使用变量 %player_name% 和 %quality%
+# playercommands[玩家命令]:
+# 饮用饮品时，玩家将执行的命令列表
+# 可以使用变量 %player_name% 和 %quality%
+# 这两个都可以根据品质添加特定命令，使用 + 表示差, ++ 表示普通, +++ 表示好，添加到每行命令的前面
+
+# drinkmessage[饮用消息]:
+# 玩家饮用饮品时接收的聊天信息
+
+# drinktitle[饮用标题]:
+# 玩家饮用饮品时屏幕上显示的标题
+
+# glint[附魔闪烁]:
+# 表示物品是否应该显示魔法光泽 [true/false]
+
+# customModelData[自定义物品模型]:
+# 用于向物品添加自定义纹理的数字标签
+# 可以为一个饮品设置，或者为每个饮品的不同品质分别设置，用 / 分隔
+
+# effects[药效列表]: 饮用时产生的药水效果、等级和持续时间的列表
+# 持续时间单位为秒
+# 等级或持续时间可用"-"表示，例如 'SPEED/1-2/30-40' 表示最差情况为等级 1 持续 30 秒，最佳情况为等级 2 持续 40 秒
+# 等级或持续时间也可逆向设置，例如 'POISON/3-1/20-5' 表示最差情况为等级 3 持续 20 秒，最佳情况为等级 1 持续 5 秒
+# 最长药水效果持续时间为 1638 秒 瞬间类药水效果无需指定持续时间
+# 可用药水效果列表: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html [打不开需要挂梯子进行浏览]
+recipes:
+  beer:
+    name: 粗制啤酒/&6啤酒/&6&oCORONA EXTRA
+    ingredients:
+    - Wheat/16
+    cookingtime: 7
+    wood: 0
+    age: 1
+    color: ffb84d
+    difficulty: 5
+    alcohol: 8
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f常见的酒种之一'
+    - '&f适合半夜吃夜宵时来一瓶'
+    - +++&f
+    - +++&f科罗娜实际上喝起来有点甜
+    - +++&f是很多人聚餐时侯会来一瓶的
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - LUCK/2-4/30-120
+    - SPEED/1-3/30-60
+  red_wine:
+    name: 淡红酒/&c红酒/&c&o『透虹浪漫红酒』
+    ingredients:
+    - sweet_berries/9
+    cookingtime: 9
+    wood: 6
+    age: 3
+    color: BRIGHT_RED
+    difficulty: 8
+    alcohol: 12
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f看着就充满了活力。'
+    - '&f虽然严格来说，应该用红葡萄酿。'
+    - +++&f
+    - +++&f微光透过深红色的酒
+    - +++&f在桌上照映出无比浪漫的影子
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - HEALTH_BOOST/2-4/90-120
+  night_red_wine:
+    name: 淡葡萄酒/&9葡萄酒/&9&o『映夜葡萄酒』
+    ingredients:
+    - sweet_berries/10
+    cookingtime: 6
+    wood: 1
+    age: 2
+    color: BLUE
+    difficulty: 8
+    alcohol: 15
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f手抖多放了一点配料的话会怎么样呢？'
+    - '&f实际上很多人都会把葡萄酒归入红酒之中'
+    - '&f或许是因为他们的口感的确相似'
+    - +++&f
+    - +++&f月色透过深蓝色的酒
+    - +++&f在桌上照映出宁静的夜
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - NIGHT_VISION/2-4/90-120
+  honey_wine:
+    name: 粗制蜂蜜酒/&e蜂蜜酒/&6&o『双层蜜酒』
+    ingredients:
+    - HONEY_BOTTLE/3
+    cookingtime: 5
+    distillruns: 2
+    wood: 1
+    age: 2
+    color: ORANGE
+    difficulty: 5
+    alcohol: 8
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f香甜可口'
+    - '&f又带有些许酒香'
+    - +++&f
+    - +++&f香甜的味道沉淀了两层
+    - +++&f在酒杯内造就了两片天地
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - ABSORPTION/2-4/90-120
+  whisky:
+    name: 粗制威士忌/&e威士忌/&6&o尊尼获加
+    ingredients:
+    - Wheat/16
+    cookingtime: 16
+    distillruns: 2
+    distilltime: 50
+    wood: 6
+    age: 20
+    color: ORANGE
+    difficulty: 6
+    alcohol: 26
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f每一口酒香都在嘴中绽放'
+    - '&f味道深沉而又令人回味无穷'
+    - +++&f
+    - +++&f尊尼获加 贼**好喝
+    - +++&f-一位不知道姓名的职业选手
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - SATURATION/3/90-480
+    - SPEED/2-4/90-480
+  coffee:
+    name: 淡咖啡/&e咖啡/&e&oEspresso
+    ingredients:
+    - COCOA_BEANS/9
+    cookingtime: 2
+    color: BLACK
+    difficulty: 4
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f清苦的黑咖啡'
+    - '&f能够让人提神醒脑'
+    - +++&f
+    - +++&f意式浓缩其实很苦
+    - +++&f大部分人可能还是更愿意选择美式
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - SPEED/1/30-60
+    - NIGHT_VISION/1/90-120
+  gin:
+    name: 暗淡金酒/&6金酒/&6&o『代时金酒』
+    ingredients:
+    - Wheat/14
+    - blue_dye/2
+    cookingtime: 6
+    distillruns: 2
+    color: 99ddff
+    difficulty: 7
+    alcohol: 20
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f一般来说很多人喜欢叫它琴酒'
+    - '&f可以试着用来调鸡尾酒'
+    - +++&f
+    - +++&f酒味进一步在嘴中升华
+    - +++&f清香诱人的口感深入心扉
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - GLOWING/1/30-60
+    - HEALTH_BOOST/1-3/90-120
+  rum:
+    name: 粗制朗姆/&6朗姆/&6&o『沉润朗姆』
+    ingredients:
+    - SUGAR_CANE/20
+    cookingtime: 9
+    distillruns: 3
+    distilltime: 15
+    wood: 4
+    age: 18
+    color: DARK_RED
+    difficulty: 6
+    alcohol: 30
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f口感尝起来甜润可口'
+    - '&f甜润的口感与芬芳的香味混和'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - FIRE_RESISTANCE/1/20-100
+    - POISON/1-0/30-0
+    - DOLPHINS_GRACE/0-2/90-120
+  vodka:
+    name: 粗制伏特加/&f伏特加/&f&oAbsolut Vodka
+    ingredients:
+    - potato/14
+    cookingtime: 15
+    distillruns: 6
+    color: WHITE
+    difficulty: 6
+    alcohol: 30
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f口感非常辛辣刺激'
+    - '&f喝下去感觉有股热流入胃'
+    - +++&f
+    - +++&f它还有个名字叫液体烈火
+    - +++&f可能就是战斗民族性子这么烈的原因
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - FIRE_RESISTANCE/1/20-100
+    - STRENGTH/1/20-100
+  tequila:
+    name: 粗制龙舌兰酒/&a龙舌兰酒/&a&o『宾柔龙舌兰』
+    ingredients:
+    - cactus/16
+    cookingtime: 9
+    distillruns: 2
+    wood: 1
+    age: 18
+    color: f5f07e
+    difficulty: 7
+    alcohol: 25
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f有着略酸口感的酒'
+    - '&f伴随着些许咖啡的味道'
+    - +++&f
+    - +++&f口感变得圆润柔和
+    - +++&f尝起来凉中带苦,很有特色
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+  absinth:
+    name: 粗制苦艾酒/&2苦艾酒/&2&o『留香苦艾酒』
+    ingredients:
+    - short_grass/24
+    cookingtime: 16
+    distillruns: 6
+    distilltime: 80
+    color: GREEN
+    difficulty: 6
+    alcohol: 52
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f酒味浓厚而又苦实'
+    - '&f香气在嘴中久久不散'
+    - +++&f
+    - +++&f沉淀后的酒香在齿间徘徊
+    - +++&f相对的苦味有所减散
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+  eggnog:
+    name: 浑浊蛋酒/&e蛋酒/&e&o『泡泡蛋酒』
+    ingredients:
+    - egg/3
+    - sugar/5
+    - milk_bucket/2
+    cookingtime: 3
+    wood: 0
+    age: 3
+    color: ffe680
+    difficulty: 10
+    alcohol: 10
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f拥有乳白色的色泽'
+    - '&f带有鸡蛋的独特气味'
+    - +++&f
+    - +++&f鸡蛋的香味被进一步加厚
+    - +++&f表面浮上了一层薄薄的泡泡
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+  dandelion_wine:
+    name: 劣质蒲公英酒/&e蒲公英酒/&e&o『三月雪』
+    ingredients:
+    - dandelion/16
+    - sugar/2
+    cookingtime: 8
+    distillruns: 2
+    distilltime: 10
+    wood: 0
+    age: 1
+    color: fafad2
+    difficulty: 5
+    alcohol: 12
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f尝起来口感清凉'
+    - '&f酒味大多被甜苦味掩盖'
+    - +++&f
+    - +++&f精制后的口感提神醒脑
+    - +++&f非常适合休闲时饮用
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - SATURATION/1/30-120
+    - INSTANT_HEALTH/1/1
+  apple_wine:
+    name: 发酵苹果汁/&e苹果酿/&6&o『提神苹果佳酿』
+    ingredients:
+    - apple/4
+    cookingtime: 2
+    distillruns: 4
+    wood: 0
+    age: 1
+    color: ffee65
+    difficulty: 6
+    alcohol: -10
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f清新时尚的无酒精饮品'
+    - '&f有很不错的醒酒功效'
+    - +++&f
+    - +++&f泡沫在杯酒中渐渐消散
+    - +++&f佳酿的香气在脑中逐渐清晰
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - REGENERATION/1/10
+  sunflower_wine:
+    name: 浑浊葵花酒/&e蜜酿葵花酒/&6&o『蜜液金花』
+    ingredients:
+    - HONEY_BOTTLE/1
+    - sunflower/2
+    cookingtime: 4
+    distillruns: 2
+    wood: 6
+    age: 5
+    color: fffc125
+    difficulty: 7
+    alcohol: 4
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f酒精含量低的饮品'
+    - '&f适合在工作后放松'
+    - +++&f
+    - +++&f金黄蜜液缓慢上升的气泡
+    - +++&f仿佛是繁星落到了人间
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - REGENERATION/1/30
+    - HUNGER/1/30
+  butter_beer:
+    name: 劣质黄油啤酒/&e黄油啤酒/&6&o『暖意』
+    ingredients:
+    - milk_bucket/1
+    - Wheat/8
+    - sugar/2
+    cookingtime: 2
+    distillruns: 2
+    wood: 2
+    age: 1
+    color: eead0e
+    difficulty: 9
+    alcohol: 7
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f酒精含量较低的饮品'
+    - '&f外出时的不二之选'
+    - +++&f
+    - +++&f黄油在啤酒中慢慢混合
+    - +++&f醇香的味道令人温暖
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - REGENERATION/1-2/5
+    - STRENGTH/1-2/30
+  corrupted_water:
+    name: '混合物/&7答辩水/&6&o『腐殖之水』 '
+    ingredients:
+    - fermented_spider_eye/2
+    - rotten_flesh/4
+    - ghast_tear/1
+    cookingtime: 20
+    distillruns: 1
+    color: FFFAF0
+    difficulty: 1
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f恶心的气味和诡异的颜色无不彰显着它的可怕'
+    - '&f它将摧残你的身躯并带来无与伦比的力量 '
+    - +++&f
+    - +++&f唯有腐殖之力
+    - +++&f为你带来荣耀
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - STRENGTH/1-5/30
+    - SLOWNESS/10-5/30
+    - BLINDNESS/1/30
+    - POISON/10-5/30
+    - UNLUCK/1/30
+  bamboo_wine:
+    name: '劣质竹酒/&a竹酒/&a&o『王竹瑞佑』 '
+    ingredients:
+    - bamboo/4
+    - wheat/2
+    cookingtime: 6
+    distillruns: 10
+    wood: 3
+    age: 1
+    color: 00FF7F
+    difficulty: 8
+    alcohol: 6
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f带有淡淡清香的饮品'
+    - '&f'
+    - +++&f
+    - +++&f深山老林里采集的幽竹
+    - +++&f让你沉浸在那淡淡清香中无法自拔
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - REGENERATION/1-2/10
+    - SATURATION/1-2/30
+  pumpkin_juice:
+    name: '南瓜碎/&6南瓜汁/&6&o『醇香南瓜汁』 '
+    ingredients:
+    - pumpkin/2
+    - sugar/1
+    cookingtime: 3
+    distillruns: 1
+    color: FFFFFF
+    difficulty: 5
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f十分常见的饮品'
+    - '&f让人感到温暖'
+    - +++&f
+    - +++&f捣碎的南瓜经过煮制过滤
+    - +++&f适量的糖激发出南瓜浓浓的香味
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - WATER_BREATHING/1/60
+    - LUCK/1-2/60
+  rose_wine:
+    name: '浑浊玫瑰酒/&c玫瑰酒/&c&o『红情一心』 '
+    ingredients:
+    - poppy/2
+    - wheat/1
+    - sugar/1
+    cookingtime: 3
+    distillruns: 5
+    wood: 3
+    age: 4
+    color: FA8072
+    difficulty: 10
+    alcohol: 8
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f酒精浓度不高的饮品'
+    - '&f饮用后会感到心情起伏'
+    - +++&f
+    - +++&f华贵的花瓣散落在酒液之上
+    - +++&f润红的液体飘出玫瑰的清香
+    - +++&f你是否会想起ta
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - REGENERATION/1-3/60
+    - POISON/1-2/10
+    - STRENGTH/1-2/30
+  heavy_metal_waste_water:
+    name: '工业废水/&f重金属蒸馏液/&e鎏金陈酿 '
+    ingredients:
+    - gold_nugget/32
+    - iron_nugget/32
+    - yellow_dye/8
+    cookingtime: 30
+    distillruns: 18
+    color: FFD700
+    difficulty: 10
+    alcohol: 1
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f看着就是工业废水的样子。'
+    - '&f喝了可能会相当后悔。'
+    - '&f'
+    - +++&f
+    - +++&f也许只有你会这样尝试了。
+    - +++&f这有什么意义吗？
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - STRENGTH/1-5/30
+    - NIGHT_VISION/1-4/60-30
+    - SLOWNESS/10-5/60-30
+    - BLINDNESS/1/120-30
+    - POISON/10-5/60-30
+  hapy_happy_happy_wine:
+    name: 罗辑快乐酒/&a奇特的酒/&2沉船中的酒
+    ingredients:
+    - copper_ingot/2
+    - wheat/16
+    - oak_planks/2
+    cookingtime: 10
+    distillruns: 1
+    color: GREEN
+    difficulty: 3
+    alcohol: 100
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f‘这还能喝吗？这都......这都绿了'''
+    - '&f‘砖家推测，能！’'
+    - '&f‘罗老弟，这四百年的酒，好喝么’'
+    - '&f‘好...好喝...’'
+    - '&f‘口区————’'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - POISON/1-3/20
+  amethyst_wine:
+    name: '一瓶水晶/&5紫色悬浊液/&d碎晶花酿 '
+    ingredients:
+    - amethyst_shard/20
+    - purple_dye/6
+    cookingtime: 15
+    distillruns: 12
+    distilltime: 3
+    color: 9966CC
+    difficulty: 10
+    alcohol: 2
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f*咳嗽* *用力吸气* *窒息*'
+    - '&f--上一个喝这玩意的人'
+    - ++&f
+    - ++&f感觉口腔里面开出了一片小小的紫水晶洞穴。
+    - ++&f就是得去看看牙医了。
+    - +++&f
+    - +++&f紫色的一瓶溶液。
+    - +++&f紫色的风从你耳畔刮过。
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - INSTANT_DAMAGE/3-0/2
+    - HUNGER/2-0/60-30
+    - HASTE/2-6/30-70
+  cherry_wine:
+    name: 樱花甜酿/&5樱咲/&d&lSpring·Sakura·Sweet
+    ingredients:
+    - cherry_leaves/10
+    - wheat/6
+    - sugar/4
+    cookingtime: 1
+    distillruns: 4
+    distilltime: 18
+    wood: 0
+    age: 2
+    color: FFFFFF
+    difficulty: 9
+    alcohol: 25
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&b刚入口就能感觉到米酿的甘甜。'
+    - '&b樱花的甜香紧随其后，使甜味更沁人心脾。'
+    - ++&f
+    - ++&b喝完这杯酒后的人总会独自叹息：人们总是喜欢欣赏绚烂的花朵，
+    - ++&b可他们没有想过把落花收集起来，像制作这坛樱花酿一样把它们做成一坛美酒。”
+    - ++&d
+    - +++&d她的笑容就如早春中烂漫的樱花般美丽
+    - +++&d喝下这佳酿，便可清楚地忆起那一日
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - REGENERATION/0-3/4
+    - HEALTH_BOOST/1-5/5-20
+    - SLOWNESS/3-1/30-15
+  coral_wine_series_1:
+    name: 湛蓝之忆/&b瓦尔登蓝钻·含酒版/&b&lSea = Azure
+    ingredients:
+    - tube_coral/6
+    - wheat/2
+    cookingtime: 2
+    distillruns: 5
+    distilltime: 7
+    wood: 0
+    age: 1
+    color: 1900FF
+    difficulty: 7
+    alcohol: 15
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - +&b管珊瑚残余的海水咸味与酒精交织在一起，
+    - +&b喝一口，投入其中，是否就能一览海中沉睡的记忆？
+    - ++&b倒是喝起来有点像瓦尔登蓝钻，
+    - ++&b不过是带了点酒精的那种，喝了大概也很上头。
+    - +++&b她就站在海岸边上，于蔚蓝的天底下观赏着粼粼波光
+    - +++&b直到夕阳落下，繁星挂在天上
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - REGENERATION/3-6/2-8
+    - SLOWNESS/3-1/15-5
+  coral_wine_series_2:
+    name: 假冒樱酒/&d粉霞/&d&lSea = Pink
+    ingredients:
+    - brain_coral/4
+    - wheat/3
+    cookingtime: 1
+    distillruns: 3
+    distilltime: 13
+    wood: 0
+    age: 2
+    color: FCA7FF
+    difficulty: 8
+    alcohol: 20
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - +&d脑珊瑚泡在麦酒里居然把酒染上了色...
+    - +&d不过也是因为这个，市面上才会有假冒的樱酒吧。
+    - +&d“你说，为什么那些人会把珊瑚这种东西扔酒里冒充樱酒呢？”她问。
+    - +&d“多半是有根神经接错地方了。”
+    - ++&d她也倒很喜欢这种酒，就像她说的：
+    - ++&d“这种酒的颜色像极了海边的彩霞，它总能让我想起海滩边的那个下午。”
+    - ++&d即使是我，也不知道她口中的“那个下午”。
+    - +++&d她在夕烧之时目睹了海洋热烈的一面
+    - +++&d夕阳与火烧云倒映在海中，使海面好似洒满了金粉，
+    - +++&d又好似在水中倒进了一瓶粉色的牛奶
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - RESISTANCE/1-3/10-25
+    - ABSORPTION/2-6/5-20
+  coral_wine_series_3:
+    name: 灼红烈酒/&4海之血·夕烧/&4&lSea = Red
+    ingredients:
+    - fire_coral/5
+    - wheat/16
+    cookingtime: 2
+    distillruns: 6
+    distilltime: 15
+    wood: 0
+    age: 3
+    color: EE5F5F
+    difficulty: 9
+    alcohol: 70
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - +&4火珊瑚让酒带上了一抹艳红，色泽诱人。"
+    - +&4它太红了，以至于拿去冒充红酒会被马上发现。"
+    - +&4于是很多人都会拿它先兑水，等红色浅一点再拿去卖。"
+    - +&4更有甚者因为在高浓度下的该酒有血一般的颜色，还把它拿去当假的血用。"
+    - +&4“我觉得那些人的脑子用在这真是浪费了。”她如是说道。"
+    - ++&4她很认同这种酒像极了血，就像是海洋尚未痊愈的伤口中迸裂出来的血。
+    - ++&4但如果能看见血红的夕阳倒映在海平面上的样子，便又会觉得它像落日的倒影了。
+    - +++&4她也曾见到过赤潮，但她并不认为这很好看
+    - +++&4反之，她认为赤潮是海洋的求救，是它的血
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - FIRE_RESISTANCE/0-1/30-120
+    - WATER_BREATHING/0-1/30-120
+  frostburned_vodka:
+    name: 掺水伏特加/&7混沌伏特加/&f霜炙伏特加
+    ingredients:
+    - brewery:&f伏特加/2
+    - brewery:&3冰水/1
+    - blaze_powder/4
+    cookingtime: 3
+    distillruns: 2
+    distilltime: 5
+    color: 99FFFF
+    difficulty: 5
+    alcohol: 45
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - +&f味道有点淡。
+    - +&f由于没有掌控好用料导致冰和烈焰粉相抵了。
+    - +++&f
+    - +++&f燃烧的烈火，凝冰的酒液。
+    - +++&f你可以试试？
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - REGENERATION/0-3/10-50
+    - MINING_FATIGUE/1/120-10
+    - STRENGTH/6-8/30-70
+    - SPEED/1-3/15-30
+  screwdrive:
+    name: '&6螺&e丝&6起&e子'
+    ingredients:
+    - brewery:&f伏特加/1
+    - brewery:&3冰水/1
+    - orange_dye/2
+    - sweet_berries/2
+    cookingtime: 3
+    color: FFCC66
+    difficulty: 6
+    alcohol: 50
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f橙黄色的酒液混合冰块煞是好看'
+    - '&f就是不知道几杯下去会醉倒呢？'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - REGENERATION/0-3/10-50
+    - MINING_FATIGUE/1/120-30
+    - STRENGTH/6-8/30-70
+    - SLOW_FALLING/0-2/10-30
+  white_russian:
+    name: '&f白色&c俄罗斯'
+    ingredients:
+    - brewery:&f伏特加/1
+    - brewery:&3冰水/1
+    - brewery:&e咖啡/1
+    - milk_bucket/2
+    cookingtime: 2
+    color: DDDDDD
+    difficulty: 5
+    alcohol: 45
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f有了几分牛奶冰咖啡的醇香'
+    - '&f形成的味道真可谓相得益彰'
+    - '&f就是不知道几杯下去会醉倒呢？'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - REGENERATION/0-3/10-50
+    - MINING_FATIGUE/1/120-30
+    - STRENGTH/6-8/30-70
+    - JUMP/0-2/10-30
+  lily_tea:
+    name: 铃兰花茶/&b洁白森林的晨曦/&b&l无暇之春
+    ingredients:
+    - birch_leaves/2
+    - lily_of_the_valley/5
+    cookingtime: 2
+    color: D5F5E3
+    difficulty: 6
+    alcohol: -30
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f将铃兰与白桦树叶混合，便可得到一杯弥散芬芳的铃兰花茶，'
+    - '&f    小口啜饮，便能品味个中韵味。'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+  blue_orchid_tea:
+    name: 兰香/&9沼泽交响曲/&l&c红树&d·&b蓝花
+    ingredients:
+    - mangrove_leaves/4
+    - blue_orchid/3
+    cookingtime: 1
+    color: BA55D3
+    difficulty: 6
+    alcohol: -30
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f红树叶，兰花，同为长在沼泽地中的植物，其气味相得益彰'
+    - '&f便是外行的人，也会迷上这味道'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - SATURATION/1/1-20
+    - SPEED/1/20-50
+  green_tea:
+    name: 涩绿茶/&a绿茶/&a&o『精制绿茶』
+    ingredients:
+    - oak_leaves/12
+    cookingtime: 1
+    color: 90EE90
+    difficulty: 4
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f尝起来清新甜润'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - SPEED/1-2/10-30
+  black_tea:
+    name: 淡红茶/&c红茶/&c&o昏睡红茶（悲
+    ingredients:
+    - birch_leaves/12
+    cookingtime: 4
+    color: FFB6C1
+    difficulty: 4
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f尝起来回味无穷'
+    - +++&f
+    - +++&f只有红茶可以吗?(心虚
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - SPEED/1/10-60
+  breathing_tea:
+    name: 醒酒茶
+    ingredients:
+    - birch_leaves/3
+    - oak_leaves/3
+    cookingtime: 1
+    color: 90EE90
+    difficulty: 5
+    alcohol: -50
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&7&o'
+    - '&7&o“只需一瓶'
+    - '&7&o即可让你摆脱酒精'
+    - '&7&o    带来的痛苦”'
+    - '&7&o'
+    - '&f&m·               ·'
+    - '&7&o'
+  warm_milk:
+    name: '&f&o温水牛奶'
+    ingredients:
+    - milk_bucket/2
+    cookingtime: 3
+    color: FFFFFF
+    difficulty: 2
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f令人舒适的温水牛奶'
+    - '&f喝一口让人感觉肚子里暖暖的'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - SATURATION/3/1
+  iced_milk:
+    name: '&f&o冰镇牛奶'
+    ingredients:
+    - brewery:&f&o温水牛奶/1
+    - brewery:&3冰水/1
+    cookingtime: 2
+    color: FFFCEA
+    difficulty: 2
+    alcohol: -30
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f冰水牛奶'
+    - '&f很适合提神解酒'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - SATURATION/3/1
+  little_cake:
+    name: 佳酿：小蛋糕/优醇：小蛋糕/国窖：小蛋糕
+    ingredients:
+    - cake/1
+    - honey_bottle/4
+    - bread/5
+    - egg/2
+    - sugar/6
+    - wheat/3
+    - sweet_berries/1
+    - peony/1
+    - rose_bush/1
+    - lilac/1
+    - sunflower/1
+    - red_tulip/1
+    - pink_petals/1
+    - lily_of_the_valley/1
+    - cornflower/1
+    - oxeye_daisy/1
+    - allium/1
+    - pink_tulip/1
+    - white_tulip/1
+    - poppy/1
+    - orange_tulip/1
+    - azure_bluet/1
+    - blue_orchid/1
+    - dandelion/1
+    - milk_bucket/1
+    - glow_berries/1
+    cookingtime: 42
+    distillruns: 5
+    wood: 1
+    age: 18
+    color: FEFFA0
+    difficulty: 8
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - +'&f至最纯洁的你'
+    - ++'&f至最美好的你'
+    - +++'&f至唯一的你'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    - '&7= 赞助者物品 = '
+    - '&f'
+    effects:
+    - LUCK/1-3/60-180
+    - HEALTH_BOOST/0-2/60-180
+    - INSTANT_HEALTH/0-2/1
+    - STRENGTH/0-4/60-180
+    alchol: 15
+  fly_posion:
+    name: '&5[ &d扶摇 &5]'
+    ingredients:
+    - phantom_membrane/64
+    - dragon_breath/64
+    - breeze_rod/64
+    cookingtime: 15
+    distillruns: 5
+    color: PURPLE
+    difficulty: 1
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f大鹏一日同风起，扶摇直上九万里'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    servercommands:
+    - /fly on %player_name%
+    alchol: 50
+  sea_tea:
+    name: '&9&lseatea'
+    ingredients:
+    - brewery:&b寒冬/1
+    - heart_of_the_sea/1
+    - nautilus_shell/1
+    - tube_coral/1
+    - brain_coral/1
+    - bubble_coral/1
+    - fire_coral/1
+    - horn_coral/1
+    cookingtime: 3
+    color: 5f7fff
+    difficulty: 7
+    alcohol: -100
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&b不知多少年前流传下来的古老饮品'
+    - '&b散发着深海的神秘感，能让头脑瞬间清醒'
+    - '&f'
+    - '&9&o海洲饮品集团®'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    - '&8- 开发者物品- '
+    glint: true
+    effects:
+    - WATER_BREATHING/1/600
+    - DOLPHINS_GRACE/1/600
+  iced_water:
+    name: '冷水/&3冰水/&b寒冬 '
+    ingredients:
+    - ice/12
+    - packed_ice/12
+    cookingtime: 2
+    distillruns: 3
+    distilltime: 1
+    color: 99FFFF
+    difficulty: 8
+    alcohol: -10
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f这是什么......水？'
+    - '&f好像没什么用。'
+    - ++&f
+    - ++&f绚烂的冰川在你眼前一闪而过。
+    - ++&f然后寒气透骨。
+    - +++&f
+    - +++&f银色长龙在狂舞。
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - INSTANT_DAMAGE/3-0/2
+    - CONDUIT_POWER/0-5/10-20
+    - MINING_FATIGUE/3-0/70-0
+  brandy:
+    name: 白兰地/&7优质白兰地/&f&oHennessy
+    ingredients:
+    - sweet_berries/16
+    cookingtime: 7
+    wood: 2
+    color: A45917
+    difficulty: 4
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f葡萄酒的灵魂'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    alchol: 30
+    effect:
+    - RESISTANCE/1/10-60
+  sherry:
+    name: 雪莉酒/&7优质雪莉酒/&f瓶里的阳光
+    ingredients:
+    - sweet_berries/12
+    - sugar/3
+    cookingtime: 13
+    color: '#3F130F'
+    difficulty: 4
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f也许可以说是仍在生产的最古老的醇酒'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    alchol: 24
+    effect:
+    - RESISTANCE/1/20-40
+  iced_ominous_bottle:
+    name: 冰镇不详之瓶
+    ingredients:
+    - ominous_bottle/1
+    - blue_ice/16
+    cookingtime: 6
+    color: BLACK
+    difficulty: 2
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f到底是什么人在制作这些诡异的配方？'
+    - '&f'
+    - '&7"这玩意真的能喝吗?"'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    alchol: 0
+    effect:
+    - INSTANT_DAMAGE/255/1
+  mojito:
+    name: '&7劣品莫吉托/&2莫吉托/&e[&6晨间洋流&e]'
+    ingredients:
+    - brewery:&6&o『沉润朗姆』/1
+    - brewery:&3苏打水/1
+    - birch_leaves/4
+    - sugar/2
+    cookingtime: 1
+    wood: 3
+    color: WHITE
+    difficulty: 6
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f一款相当有代表性的朗姆酒调饮，'
+    - +&f这瓶成色相当一般，大概是某个学艺不精的调饮师所制。
+    - ++&f薄荷的香气与朗姆的味道相结合，还有着苏打水的丝丝气泡。
+    - +++&f据说这是一份来自海盗的配方，他们总在清晨喝上一杯用于提神。
+    - +++&f多种材料的完美融合，毫无疑问这是一次成功的尝试。
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    alchol: 34
+    effect:
+    - STRENGTH/1-3/20-120
+    - GLOWING/1/2
+    - FIRE_RESISTANCE/1/60-180
+    - POISON/1-0/20-0
+    - DOLPHINS_GRACE/1/120-300
+  soda_water:
+    name: '&3苏打水'
+    ingredients:
+    - potion/1
+    cookingtime: 6
+    color: WHITE
+    difficulty: 2
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f调饮的常见材料，直接饮用的口味并不出彩。'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    alchol: 0
+    effect:
+    - STRENGTH/1/10
+  PuEr:
+    name: 一般茶水/&2普洱/&2熟成普洱茶
+    ingredients:
+    - acacia_leaves/16
+    cookingtime: 6
+    color: '#A55504'
+    difficulty: 4
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - +&f味道嘈杂，气味寡淡，甚至难以分辨是哪种茶水。
+    - ++&f历史悠久的名茶之一，香味柔顺而浓郁。
+    - +++&f历史悠久的名茶之一，香味柔顺而浓郁。
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    alchol: -10
+    effect:
+    - NIGHT_VISION/0-1/300-900
+  MoLiHuaCha:
+    name: 一般茶水/&7茉莉花茶/&3茉莉蜜茶
+    ingredients:
+    - oak_leaves/12
+    - azure_bluet/3
+    cookingtime: 2
+    color: '#A55504'
+    difficulty: 4
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - +&f味道嘈杂，气味寡淡，甚至难以分辨是哪种茶水。
+    - ++&f常见的花茶，茉莉的气味融入茶水，口感独特而柔缓。
+    - +++&f？这是对的吗。
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    alchol: -15
+    effect:
+    - LUCK/0-1/60-120
+  LongJing:
+    name: 劣质龙井/&2龙井/&6西湖龙井
+    ingredients:
+    - oak_leaves/24
+    - bone_meal/2
+    cookingtime: 1
+    color: '#A55504'
+    difficulty: 6
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f中国十大名茶之首，“色绿、香郁、味甘、形美”'
+    - +&f这杯略显苦涩，或许是你弄错了配方中的某一步。
+    - ++&f还算不错的成色，应该还有一些可优化的步骤。
+    - +++&f”徘徊龙井上，云气起晴画。烹煎黄金芽，三咽不忍漱。”
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    alchol: -20
+    effect:
+    - STRENGTH/0-2/120
+    - HEALTH_BOOST/0-2/120
+    - SLOW_FALLING/1/0-10
+  TieGuanYin:
+    name: 劣质铁观音/&6铁观音/&e沉璧铁观音
+    ingredients:
+    - spruce_leaves/16
+    cookingtime: 8
+    color: '#A55504'
+    difficulty: 6
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f铁观音里为什么没有铁？'
+    - +&f这杯略显苦涩，或许是你弄错了配方中的某一步。
+    - ++&f还算不错的成色，应该还有一些可优化的步骤。
+    - +++&f口味醇厚、香气高长，一份完美的成品。&8看来里面真的没有铁
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    alchol: -20
+    effect:
+    - SPEED/1-3/120
+    - HASTE/1/120
+  swimsky:
+    name: '&l · &f云游&l · '
+    ingredients:
+    - brewery:萃取液：幻翼/1
+    - elytra/1
+    cookingtime: 5
+    distillruns: 3
+    distilltime: 30
+    color: FFFFFF
+    difficulty: 6
+    lore:
+    - '&c&m·      &f&l简介&c&m      ·'
+    - '&f'
+    - '&f&o驷玉虬以乘鹥兮，溘埃风余上征'
+    - '&f&o朝发轫于苍梧兮，夕余至乎县圃'
+    - '&f'
+    - '&c&m·               ·'
+    - '&f'
+    effects:
+    - SPEED/5/300
+    - SLOW_FALLING/1/300
+    alchol: 24
+  swimbird:
+    name: '&l&k · &f&l·扶摇·&l&k · '
+    ingredients:
+    - brewery:&5萃取液：末影龙/1
+    - brewery:&l · &f云游&l · /1
+    - nether_star/1
+    cookingtime: 5
+    distillruns: 3
+    distilltime: 30
+    color: FFFFFF
+    difficulty: 8
+    lore:
+    - '&c&m·      &f&l简介&c&m      ·'
+    - '&f'
+    - '&f&o霓为衣兮风为马，云之君兮纷纷而来下'
+    - '&f&o虎鼓瑟兮鸾回车，仙之人兮列如麻'
+    - '&f'
+    - '&c&m·               ·'
+    - '&f'
+    servercommands:
+    - /fly toggle %player_name%
+    alchol: 48
+  whybirdsfly:
+    name: '&l&k ··· &f&l· - 飞鸟 - ·&l&k ··· '
+    ingredients:
+    - brewery:&5萃取液：末影龙/4
+    - brewery:&l&k · &f&l·扶摇·&l&k · /1
+    - nether_star/16
+    - elytra/4
+    cookingtime: 5
+    distillruns: 5
+    distilltime: 30
+    color: FFFFFF
+    difficulty: 10
+    lore:
+    - '&e&m·      &f&l简介&e&m      ·'
+    - '&f'
+    - '&f&o浮世三千'
+    - '&f&o吾爱有三'
+    - '&f&o日月与卿'
+    - '&f&o日为朝'
+    - '&f&o月为暮'
+    - '&f&o卿为朝朝暮暮'
+    - '&f'
+    - '&e&m·               ·'
+    - '&f'
+    servercommands:
+    - /lp user %player_name% permission set rwp.flymode true
+    - /tell %player_name% 你现在可以使用/flymode了
+    alchol: 96
+  extract_liquor:
+    name: 萃取剂
+    ingredients:
+    - retention_factors/1
+    - nether_star/1
+    cookingtime: 5
+    color: FFFFFF
+    difficulty: 8
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f伟大的发明，用于制作萃取剂'
+    - '&f直接饮用没有任何效果！'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    custommodeldata: 1
+  phantom_extract:
+    name: 萃取液：幻翼
+    ingredients:
+    - phantom_membrane/16
+    - brewery:萃取剂/1
+    cookingtime: 1
+    color: FFFFFF
+    difficulty: 3
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f取材自幻翼的生物萃取液'
+    - '&f能让饮用者获得幻翼的部分特性'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - SLOW_FALLING/1/600
+    - JUMP_BOOST/2/600
+  ender_dragon_extract:
+    name: '&5萃取液：末影龙'
+    ingredients:
+    - dragon_breath/16
+    - end_crystal/8
+    - brewery:萃取剂/1
+    cookingtime: 1
+    color: PURPLE
+    difficulty: 3
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&f取材自末影龙的生物萃取液'
+    - '&f不宜饮用，直接饮用致死'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - INSTANT_DAMAGE/255/1
+    - DARKNESS/5/5
+  dragons_dream:
+    name: '&5[ &d&l龙·梦 &5] '
+    ingredients:
+    - brewery:'&5萃取液：末影龙'/1
+    - glow_ink_sac/4
+    - gold_nugget/16
+    - ender_eye/12
+    cookingtime: 16
+    distillruns: 4
+    age: 5
+    color: '#EC61FF'
+    difficulty: 6
+    lore:
+    - '&f&m·      &f&l简介&f&m      ·'
+    - '&f'
+    - '&5当我不在末地时，或许末影龙也会做梦吗？'
+    - '&d你不知道，但你或许会梦见末影龙。'
+    - '&f'
+    - '&f&m·               ·'
+    - '&f'
+    effects:
+    - STRENGTH/5/60
+    - RESISTANCE/2/60
+    - SPEED/1-3/120
+    alchol: 80
+
+# More recipe ideas:
+# Dandelion Liquor
+# Beetroot Spirit
+# Poppy Liquor: Macum/Grand Poppy
+# Bamboo Liquor: Chu Yeh Ching
+# Cachaca
+# Cognac
+# Sake
+# Buorbon
+# Moonshine
+# Different Wines
+# Brandy
+# Amaretto
+# etc. as well as variations like,
+# Pumpkin Spice Beer
+# Melon Vodka
+
+# There are a lot of items in Minecraft like Vines, Milk and items added by plugins that would make great ingredients.

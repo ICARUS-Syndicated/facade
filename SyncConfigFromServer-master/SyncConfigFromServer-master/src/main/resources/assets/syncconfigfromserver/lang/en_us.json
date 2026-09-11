@@ -1,0 +1,13 @@
+{
+  "itemGroup.syncconfigfromserver": "Example Mod Tab",
+  "block.syncconfigfromserver.example_block": "Example Block",
+  "item.syncconfigfromserver.example_item": "Example Item",
+
+  "syncconfigfromserver.configuration.title": "SyncConfigFromServer Configs",
+  "syncconfigfromserver.configuration.section.syncconfigfromserver.common.toml": "SyncConfigFromServer Configs",
+  "syncconfigfromserver.configuration.section.syncconfigfromserver.common.toml.title": "SyncConfigFromServer Configs",
+  "syncconfigfromserver.configuration.items": "Item List",
+  "syncconfigfromserver.configuration.logDirtBlock": "Log Dirt Block",
+  "syncconfigfromserver.configuration.magicNumberIntroduction": "Magic Number Text",
+  "syncconfigfromserver.configuration.magicNumber": "Magic Number"
+}

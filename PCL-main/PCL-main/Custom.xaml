@@ -1,0 +1,121 @@
+﻿<!-- 这是 PCL 的主页自定义文件。你可以通过修改这个文件来自定义 PCL 主页：添加文本、打开网页、启动游戏，等等。
+     如果你倒腾这个文件把 PCL 玩炸了，把这个文件直接删除就行了。
+     下列内容均基于 WPF 框架。你可以在继续之前先尝试自学 XAML 与 WPF 的基础，这能让你更轻松地理解下列内容。
+     你也可以使用 Ctrl + F 快速查找。例如，若需要改变文本颜色，则搜索 “颜色” 即可。 -->
+<Border CornerRadius="5" Background="White" Margin="0,0,0,15">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.Row="0"  Margin="0,4,0,4">
+            <local:MyImage Height="25"  Source="https://samuge.red/res/icon.png" />
+            <TextBlock TextWrapping="Wrap" FontSize="20" HorizontalAlignment="Center" FontWeight="Bold"
+                   Text="公告" />
+            <local:MyImage Height="25"  Source="https://samuge.red/res/icon.png" />
+        </StackPanel>
+        <!-- 这是一个警示的公告，维护时取消注释并更改文本内容
+        <local:MyHint Grid.Row="1" Margin="6,4,6,4" Theme="Red" Text="服务器将于进行停服维护，期间请不要加入服务器，以免丢失数据" />
+        -->
+        <TextBlock Grid.Row="2" TextWrapping="Wrap" FontSize="17" Margin="20,4,0,4" HorizontalAlignment="Left" FontWeight="Bold"
+           Text="当前版本: beta 1.1.1 Jasmine" />
+        <TextBlock Grid.Row="3" TextWrapping="Wrap" FontSize="15" Margin="20,4,0,4" HorizontalAlignment="Left" 
+           Text="本次更新为新年版本！" />
+        <TextBlock Grid.Row="4" TextWrapping="Wrap" FontSize="15" Margin="20,4,0,4" HorizontalAlignment="Left" 
+           Text="同时更新了" />
+        <TextBlock Grid.Row="5" TextWrapping="Wrap" FontSize="15" Margin="20,4,0,4" HorizontalAlignment="Left" FontWeight="Bold"
+           Text="祝大家在新的一年里事业进步，生活幸福！（" />
+        <Border Grid.Row="6" Height="1" Background="#1172D3" Margin="10,5"></Border>
+        <Grid Grid.Row="7" HorizontalAlignment="Center" Margin="0,0,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <local:MyButton Grid.Column="0" Margin="20,10,0,4"  Height="35" Width="150" HorizontalAlignment="Left" ColorType="Highlight"
+               Text="访问服务器官网" EventType="打开网页" EventData="https://samuge.red/"  />
+            <local:MyButton Grid.Column="1" Margin="20,10,0,4"  Height="35" Width="150" HorizontalAlignment="Left" ColorType="Highlight"
+               Text="访问皮肤站" EventType="打开网页" EventData="https://bs.samuge.red/" />
+            <local:MyButton Grid.Column="2" Margin="20,10,0,4"  Height="35" Width="150" HorizontalAlignment="Left" ColorType="Highlight"
+               Text="访问服务器WIKI" EventType="打开网页" EventData="https://doc.samuge.red/#/?id=%e7%ba%a2%e7%99%bd%e9%98%81" />
+        </Grid>
+        <Grid Grid.Row="8" HorizontalAlignment="Center" Margin="0,0,0,5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <local:MyButton Grid.Column="0" Margin="20,0,0,4"  Height="35" Width="150" HorizontalAlignment="Left" ColorType="Highlight"
+               Text="访问服务器地图" EventType="打开网页" EventData="http://mc.samuge.red:8123/"  />
+            <local:MyButton Grid.Column="1" Margin="20,0,0,4"  Height="35" Width="150" HorizontalAlignment="Left" ColorType="Highlight"
+               Text="写个好评喵！" EventType="打开网页" EventData="https://play.mcmod.cn/sv20188062.html" />
+            <local:MyButton Grid.Column="2" Margin="20,0,0,4"  Height="35" Width="150" HorizontalAlignment="Left" ColorType="Highlight"
+               Text="复制服务器地址" EventType="复制文本" EventData="mc.samuge.red" />
+        </Grid>
+    </Grid>
+</Border>
+
+<Border CornerRadius="5" Background="White" Margin="0,0,0,15">
+   <Grid>
+      <Grid.RowDefinitions>
+         <RowDefinition Height="Auto"/>
+         <RowDefinition Height="Auto"/>
+         <RowDefinition Height="Auto"/>
+         <RowDefinition Height="Auto"/>
+         <RowDefinition Height="Auto"/>
+         <RowDefinition Height="Auto"/>
+         <RowDefinition Height="Auto"/>
+         <RowDefinition Height="Auto"/>
+         <RowDefinition Height="Auto"/>
+      </Grid.RowDefinitions>
+      <TextBlock Grid.Row="0" TextWrapping="Wrap" FontSize="20" Margin="0,4,0,4" HorizontalAlignment="Center" FontWeight="Bold"
+         Text="关于服务器整合包" />
+      <TextBlock Grid.Row="1" TextWrapping="Wrap" FontSize="15" Margin="20,4,0,4" HorizontalAlignment="Left"
+         Text="下面这些是我们提供的推荐整合包"/>
+      <TextBlock Grid.Row="2" TextWrapping="Wrap" FontSize="15" Margin="20,4,0,4" HorizontalAlignment="Left" 
+        Text="分为两种性能需求，可以根据自己的需求选择。" />
+      <TextBlock Grid.Row="3" TextWrapping="Wrap" FontSize="15" Margin="20,4,0,4" HorizontalAlignment="Left" 
+        Text="其中AllMusic为服务器的听歌mod，整合包内自带" />
+      <TextBlock Grid.Row="4" TextWrapping="Wrap" FontSize="15" Margin="20,4,0,4" HorizontalAlignment="Left" 
+        Text="也可以自己下载添加到自己的游戏端内" />
+      <TextBlock Grid.Row="5" TextWrapping="Wrap" FontSize="15" Margin="20,4,0,4" HorizontalAlignment="Left" 
+        Text="点击按钮即可下载，默认下载路径为你的PCL所在的目录" />
+      <TextBlock Grid.Row="6" TextWrapping="Wrap" FontSize="15" Margin="20,4,0,4" HorizontalAlignment="Left" 
+        Text="下载完整后将整合包拖入pcl即可" />
+      <Border Grid.Row="7" Height="1" Background="#1172D3" Margin="10,5"></Border>
+      <Grid Grid.Row="8" HorizontalAlignment="Center" Margin="0,0,0,10">
+         <Grid.ColumnDefinitions>
+             <ColumnDefinition Width="Auto"/>
+             <ColumnDefinition Width="Auto"/>
+             <ColumnDefinition Width="Auto"/>
+         </Grid.ColumnDefinitions>
+         <local:MyButton Grid.Column="0" Margin="20,10,0,4"  Height="35" Width="150" HorizontalAlignment="Left" ColorType="Highlight"
+            Text="低配" >
+               <local:CustomEventService.Events>
+                  <local:CustomEventCollection>
+                     <local:CustomEvent Type="下载文件" Data="https://dl.samuge.red/a.zip|红白阁-低配.zip|{path}" />
+                     <local:CustomEvent Type="执行命令" Data="explorer.exe|/select,..\Plain Craft Launcher 2.exe"/>
+                  </local:CustomEventCollection>
+               </local:CustomEventService.Events>
+         </local:MyButton>
+         <local:MyButton Grid.Column="1" Margin="20,10,0,4"  Height="35" Width="150" HorizontalAlignment="Left" ColorType="Highlight"
+            Text="AllMusic" EventType="打开网页" EventData="https://github.com/Coloryr/AllMusic_Client/actions" />
+         <local:MyButton Grid.Column="2" Margin="20,10,0,4"  Height="35" Width="150" HorizontalAlignment="Left" ColorType="Highlight"
+            Text="高配" >
+               <local:CustomEventService.Events>
+                  <local:CustomEventCollection>
+                     <local:CustomEvent Type="下载文件" Data="https://dl.samuge.red/ex.zip|红白阁-高配.zip|{path}" />
+                     <local:CustomEvent Type="执行命令" Data="explorer.exe|/select,..\Plain Craft Launcher 2.exe"/>
+                  </local:CustomEventCollection>
+               </local:CustomEventService.Events>
+         </local:MyButton>
+      </Grid>
+   </Grid>
+</Border>

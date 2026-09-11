@@ -1,0 +1,17 @@
+name: recipeaddon
+version: 1.6.4-BETA
+main: rwp.annieawa.recipeaddon.RecipeAddon
+api-version: "1.21"
+author: AnnieWa
+description: 支持物品组件的自定义配方插件
+
+commands:
+  recipeaddon:
+    description: 重载自定义配方，获取配方结果/原料，或为玩家解锁配方
+    usage: /recipeaddon reload | /recipeaddon get result <key> [amount] | /recipeaddon get ingredient <key> [index] | /recipeaddon get recipes <player> <pattern>
+    permission: recipeaddon.admin
+
+permissions:
+  recipeaddon.admin:
+    description: 允许使用所有插件命令
+    default: op

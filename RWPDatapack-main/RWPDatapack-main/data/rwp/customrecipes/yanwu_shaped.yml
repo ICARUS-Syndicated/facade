@@ -1,0 +1,45 @@
+type: shaped
+key: nether_sword_to_yanwu
+pattern:
+  - " C "
+  - "DAD"
+  - " B "
+ingredients:
+  A:
+    material: NETHERITE_SWORD
+    match-mode: material
+  B:
+    material: YELLOW_DYE
+    components:
+      display-name: "<gold><bold><!i>焰舞锻片</bold></gold>"
+      item-model: "rwskins:fire_plate"
+      lore:
+        - "<gray><!i>唤焰起，除旧岁</gray>"
+      glint: true
+  C:
+    material: BLAZE_POWDER
+    match-mode: material
+  D:
+    material: GOLD_INGOT
+    match-mode: material
+    
+result:
+  material: GOLDEN_SWORD
+  amount: 1
+  components:
+    prefix: "<gold><bold><!i>焰灵·<bold:false></gold>"
+    item-model: "rwskins:newyear_sword"
+    maxdamage: 2026
+    lore:
+      - "<color:#EECC00><!i>唤焰起，除旧岁"
+special:
+  target-material: NETHERITE_SWORD
+  source-slot: 4
+  copy-input: true
+  amount: 1
+  components:
+    prefix: "<gold><bold><!i>焰灵·<bold:false></gold>"
+    item-model: "rwskins:newyear_sword"
+    maxdamage: 2026
+    lore:
+      - "<color:#EECC00><!i>唤焰起，除旧岁"

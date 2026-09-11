@@ -1,0 +1,4 @@
+name: AprilFool
+version: '1.0-SNAPSHOT'
+main: org.rwp.aprilFool.AprilFool
+api-version: '1.21'

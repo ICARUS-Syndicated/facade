@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " P ",
+    "XZX",
+    "YXY"
+  ],
+  "key": {
+    "X": "minecraft:wheat",
+	"Y": "minecraft:sugar",
+	"Z": "minecraft:milk_bucket",
+    "P": "minecraft:honey_bottle"
+  },
+  "result": {
+	  "id":"minecraft:cookie",
+	  "count":3,
+	  "components":{
+		"minecraft:item_name":{"text":"奶香月饼","color":"#f1e09e","bold":true},
+		"minecraft:item_model":"rwp:naixiang_mooncake",
+		"minecraft:lore":[{"text":"================","color":"#ccc4a7","italic":false},{"text":"浓郁的奶香在味蕾上交织，","color":"#ccc4a7","italic":false},{"text":" 氤氲出儿时的那份企盼","color":"#ccc4a7","italic":false},{"text":"================","color":"#ccc4a7","italic":false}],
+		"minecraft:food":{"can_always_eat":true,"nutrition":3,"saturation":2},
+		"minecraft:consumable":{"on_consume_effects":[{"type":"apply_effects","effects":[{"id":"saturation","duration":5,"amplifier":0}]}]}
+	  }
+	}
+}

@@ -1,0 +1,27 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "TPT",
+    "XZX",
+    "TYT"
+  ],
+  "key": {
+    "X": "minecraft:wheat",
+	"Z": "minecraft:sugar",
+	"Y": "minecraft:glow_berries",
+    "P": "minecraft:honey_bottle",
+    "T": "minecraft:gold_ingot"
+  },
+  "result": {
+	  "id":"minecraft:cookie",
+	  "count":1,
+	  "components":{
+		"minecraft:item_name":{"text":"黄金月饼","color":"#e2c11c","bold":true},
+		"minecraft:item_model":"rwp:golden_mooncake",
+        "minecraft:enchantment_glint_override":true,
+		"minecraft:lore":[{"text":"================","color":"#efda72","italic":false},{"text":"从里到外都是满目金黄，","color":"#efda72","italic":false},{"text":" 好看，但……真的能吃？","color":"#efda72","italic":false},{"text":"================","color":"#efda72","italic":false}],
+		"minecraft:food":{"can_always_eat":true,"nutrition":3,"saturation":2},
+		"minecraft:consumable":{"on_consume_effects":[{"type":"apply_effects","effects":[{"id":"health_boost","duration":600,"amplifier":2},{"id":"regeneration","duration":200,"amplifier":2},{"id":"resistance","duration":600,"amplifier":2}]}]}
+	  }
+	}
+}

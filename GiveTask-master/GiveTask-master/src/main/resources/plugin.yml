@@ -1,0 +1,11 @@
+name: GiveTask
+version: '1.0-SNAPSHOT'
+main: org.rwp.giveTask.GiveTask
+api-version: '1.21'
+commands:
+  givetask:
+    description: Gives a task to a player
+    usage: /givetask
+  apply:
+    description: apply task
+    usage: /apply [ID]

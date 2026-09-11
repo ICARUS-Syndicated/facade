@@ -1,0 +1,20 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "rwskins:item/hydro_slime_sword"
+    },
+    "display":{
+        "thirdperson_righthand":{
+            "scale":[1.1,1.1,0.8],
+            "rotation":[0,-90,50],
+            "translation":[0,9,0]
+        },
+        "fixed":{
+            "scale":[2,2,1]
+        },
+        "gui":{
+            "scale":[1.8,1.8,1],
+            "translation":[6,6,0]
+        }
+    }
+}

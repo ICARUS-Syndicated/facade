@@ -1,0 +1,9 @@
+name: RCON
+version: '1.0-SNAPSHOT'
+main: org.RWP.rCON.RCON
+api-version: '1.21'
+commands:
+  rcon:
+    description: use the tcon
+    usage: /<command>
+    permission: rcon.use

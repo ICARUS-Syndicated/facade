@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "ZXZ",
+    "XYX",
+    "ZXZ"
+  ],
+  "key": {
+    "X": "minecraft:enchanted_book",
+	  "Y": "minecraft:golden_apple",
+    "Z": "minecraft:gold_block"
+  },
+  "result": {
+	  "id":"minecraft:enchanted_golden_apple",
+	  "count":1
+  }
+
+}

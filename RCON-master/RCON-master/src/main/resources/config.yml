@@ -1,0 +1,12 @@
+servers:
+  -
+    name: "localhost"
+    ip: "127.0.0.1"
+    port: 25575
+    pwd: "123456"
+  -
+    name: "localhost2"
+    ip: "127.0.0.1"
+    port: 25576
+    pwd: "123456"
+

@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "Z",
+    "X"
+  ],
+  "key": {
+    "X": "minecraft:phantom_membrane",
+	  "Z": "minecraft:glow_item_frame"
+  },
+  "result": {
+	  "id":"minecraft:glow_item_frame",
+	  "count":1,
+	  "components":{
+		"minecraft:item_name":{"text":"发光隐形物品展示框","color":"#ffffee","bold":true},
+		"minecraft:item_model":"unframed:glow_item_frame",
+		"minecraft:lore":[{"text":"隐藏边框的发光展示框","color":"#fef38e","italic":false}],
+		"minecraft:entity_data":{"id":"glow_item_frame","Invisible":true}
+	  }
+	}
+}

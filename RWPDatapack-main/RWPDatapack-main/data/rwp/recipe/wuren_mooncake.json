@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " X ",
+    "XZX",
+    "PYP"
+  ],
+  "key": {
+    "X": "minecraft:wheat",
+	"Y": "minecraft:sugar",
+	"Z": "minecraft:beetroot",
+	"P": "minecraft:pumpkin_seeds"
+  },
+  "result": {
+	  "id":"minecraft:cookie",
+	  "count":3,
+	  "components":{
+		"minecraft:item_name":{"text":"五仁月饼","color":"#b15e1a","bold":true},
+		"minecraft:item_model":"rwp:wuren_mooncake",
+		"minecraft:lore":[{"text":"================","color":"#a5734b","italic":false},{"text":"比较经典的款式，","color":"#a5734b","italic":false},{"text":" 能吃到满口的香","color":"#a5734b","italic":false},{"text":"================","color":"#a5734b","italic":false}],
+		"minecraft:food":{"can_always_eat":true,"nutrition":3,"saturation":2},
+		"minecraft:consumable":{"on_consume_effects":[{"type":"apply_effects","effects":[{"id":"strength","duration":200}]}]}
+	  }
+	}
+}

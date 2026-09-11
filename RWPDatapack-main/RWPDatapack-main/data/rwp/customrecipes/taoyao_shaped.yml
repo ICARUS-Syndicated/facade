@@ -1,0 +1,42 @@
+type: shaped
+key: nether_sword_to_flower
+pattern:
+  - " D "
+  - "DAD"
+  - " B "
+ingredients:
+  A:
+    material: NETHERITE_SWORD
+    match-mode: material
+  B:
+    material: PINK_DYE
+    components:
+      display-name: "<color:#EEAAAA><bold><!i>桃花散</bold>"
+      item-model: "rwskins:flower_plate"
+      lore:
+        - "<gray><!i>连万里，来生花</gray>"
+      glint: true
+  D:
+    material: PINK_PETALS
+    match-mode: material
+    
+result:
+  material: NETHERITE_SWORD
+  amount: 1
+  components:
+    prefix: "<color:#EEAAAA><bold><!i>桃夭·<bold:false></color>"
+    item-model: "rwskins:flower_sword"
+    maxdamage: 2026
+    lore:
+      - "<color:#CC9999><!i>可爱深红爱浅红"
+special:
+  target-material: NETHERITE_SWORD
+  source-slot: 4
+  copy-input: true
+  amount: 1
+  components:
+    prefix: "<color:#EEAAAA><bold><!i>桃夭·<bold:false></color>"
+    item-model: "rwskins:flower_sword"
+    maxdamage: 2026
+    lore:
+      - "<color:#CC9999><!i>可爱深红爱浅红"

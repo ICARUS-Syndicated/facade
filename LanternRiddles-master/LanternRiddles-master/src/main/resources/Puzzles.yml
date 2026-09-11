@@ -1,0 +1,3169 @@
+puzzles:
+  - question: 打一字：方块世界绿衣裳，手撸即碎土中藏
+    options:
+      - 草
+      - 土
+      - 苗
+      - 地
+    answer: 0
+    id: Pn9YqxlMahrQDeyZzFpeSTuWVb4nMzda
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：绿衣行者夜潜行，四足无声爆炸惊
+    options:
+      - 僵尸
+      - 骷髅
+      - 苦力怕
+      - 蜘蛛
+    answer: 2
+    id: WpQh92TXPuUrAYO4wtnyJJJLx5FY3K0I
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：十二真珠寻要塞
+    options:
+      - 末影之眼
+      - 末影珍珠
+      - 烈焰粉
+      - 恶魂之泪
+    answer: 0
+    id: r5e0E4yF6FSJ73DbSWL2bcLwKUq2ihfW
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：紫黑相间纹，世界边界存
+    options:
+      - 基岩
+      - 屏障
+      - 结构方块
+      - 命令方块
+    answer: 0
+    id: aDWoJFSwHbIGSdkoGG2uiZiYiGUGgspk
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一维度：烈焰堡垒空中悬，猪灵蛮兵守宝藏
+    options:
+      - 主世界
+      - 下界
+      - 末地
+      - 末地城
+    answer: 1
+    id: WKXpaW2MujVzcQ15lEJ1WEOWylYXQdQ9
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：末地城中黑影长，紫眼传送窃箱忙
+    options:
+      - 末影龙
+      - 末影人
+      - 潜影贝
+      - 末影螨
+    answer: 1
+    id: 8N9ys3ULteJbSSDE523NKC79ChTRQyNo
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：三格高杆插火把，怪物生成即刻止
+    options:
+      - 萤石
+      - 海晶灯
+      - 红石灯
+      - 灯笼
+    answer: 0
+    id: xy9T70OTA3AEXfwxjn6m5SiE2mVU7YoB
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：十六格内无光亮，僵尸骷髅自然生
+    options:
+      - 刷怪机制
+      - 光照机制
+      - 区块加载
+      - 红石电路
+    answer: 0
+    id: 1EgR6YtsPDqCmq531OyXpCVwCdjmPZJc
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：红粉合成线路长，充能方块信号扬
+    options:
+      - 红石粉
+      - 红石块
+      - 红石火把
+      - 红石中继器
+    answer: 0
+    id: uBcuPbwk4eNBZGazzRiuG3W5xZ9b9WG3
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：白色双眼黑夜亮，弓箭精准骷髅将
+    options:
+      - 流浪者
+      - 骷髅
+      - 凋灵骷髅
+      - 幻翼
+    answer: 1
+    id: Ocf90QZOmMtEgxwLxaB9Ofesr5StQKcv
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：下界之星合成物，信标光芒照四方
+    options:
+      - 信标
+      - 下界之星
+      - 绿宝石
+      - 钻石
+    answer: 0
+    id: LIMnZRh62LL5QvoFAXOXXq5HFmxo7Nc1
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：地底深坑刷怪笼，宝箱蜘蛛藏其中
+    options:
+      - 地牢
+      - 废弃矿井
+      - 要塞
+      - 沙漠神殿
+    answer: 0
+    id: j00aw4Fq2Imi6ZTITIi5bsauUVo5rTid
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：粉色四蹄鼻哼哼，闪电击中变猪人
+    options:
+      - 猪
+      - 猪灵
+      - 疣猪兽
+      - 炽足兽
+    answer: 0
+    id: fSvTFvgjKHhN6WUd6wW7YaiJHLzy5Yic
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：水中呼吸附魔台，海晶碎片合成来
+    options:
+      - 潮涌核心
+      - 信标
+      - 附魔台
+      - 酿造台
+    answer: 0
+    id: uMCSNf47iixulPQT6MgcPPIOlOtutwsH
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：龙息收集酿药水，滞留效果范围伤
+    options:
+      - 龙息
+      - 烈焰粉
+      - 发酵蛛眼
+      - 闪烁的西瓜
+    answer: 0
+    id: UtKXMwSv3xcwkQ1U1aU8CVTr8D9FD3XW
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：经验修补工具上，拾取球体耐久长
+    options:
+      - 经验修补
+      - 耐久
+      - 效率
+      - 精准采集
+    answer: 0
+    id: 2FfLY1LEOqX76S4ZBh6EDr729Qvc3SlE
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：黑石深板钻石藏，铁镐挖掘闪蓝光
+    options:
+      - 钻石矿石
+      - 深层钻石矿石
+      - 青金石矿石
+      - 绿宝石矿石
+    answer: 1
+    id: C8bDEdJXtb7dtGBM4ic3IJxLfdfJVmDq
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：末地之岛黑龙飞，水晶治疗难摧毁
+    options:
+      - 末影龙
+      - 凋灵
+      - 远古守卫者
+      - 劫掠兽
+    answer: 0
+    id: atyE4eC11PXKeMipbBZ1JuD4WUtsXd5A
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：下界合金升级台，金锭钻石合成难
+    options:
+      - 锻造台
+      - 工作台
+      - 高炉
+      - 烟熏炉
+    answer: 0
+    id: IpZ8lDPFN6udjagCWklUl2qFnKSoviB9
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一维度：末地城外紫颂果，鞘翅飞翔虚空落
+    options:
+      - 主世界
+      - 下界
+      - 末地
+      - 末地城
+    answer: 2
+    id: phw0pVEHGnLs4d063fh4DclmAbQPzd6h
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：深海神殿守护者，激光攻击 mining fatigue
+    options:
+      - 守卫者
+      - 远古守卫者
+      - 溺尸
+      - 鱿鱼
+    answer: 1
+    id: YCm1mZno7HHJqBrKh2heoi1zML37zpdi
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：音符盒上红石连，不同方块音阶变
+    options:
+      - 音符盒
+      - 唱片机
+      - 钟
+      - 铜钟
+    answer: 0
+    id: c5WpFwruV6JPRwqnOUEdBO9tAhjaqjzr
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：凋灵召唤三灵魂，沙下埋骨四灵魂
+    options:
+      - 灵魂沙
+      - 灵魂土
+      - 凋灵骷髅头颅
+      - 下界之星
+    answer: 2
+    id: jVwUx2BamVekarTAoaiQmyyWgWJyVVSc
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：饥饿值满血回复，生鸡肉吃中毒苦
+    options:
+      - 饥饿机制
+      - 饱和度
+      - 食物中毒
+      - 生命恢复
+    answer: 0
+    id: 39wgRdbEYLedwaYgnsH4oy5A7b7ZI7oV
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：沙漠金字塔陷阱藏，压力板下TNT忙
+    options:
+      - 沙漠神殿
+      - 丛林神庙
+      - 海底神殿
+      - 林地府邸
+    answer: 0
+    id: vnhwcqxM4WEugBVXqOFHmWl1zBZNK6wp
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：雪原白色长耳跳，胡萝卜钓杆可骑乘
+    options:
+      - 兔子
+      - 北极熊
+      - 狐狸
+      - 羊驼
+    answer: 0
+    id: vpY6wnFZD5XGs8ueq7MSkYIXDmRi8wke
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：活塞推动十二格，粘液粘连连带回
+    options:
+      - 粘性活塞
+      - 活塞
+      - 粘液块
+      - 蜂蜜块
+    answer: 0
+    id: x9pJKZgy4b7y2lQBpPCMtGE3XEZTYCvg
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：附魔金苹果光，八种效果护体强
+    options:
+      - 金苹果
+      - 附魔金苹果
+      - 闪烁的西瓜
+      - 甜菜汤
+    answer: 1
+    id: hOQovqW2dr0bA6UsJ6iPzrfNnMNxKve1
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：区块加载十六格，红石信号十五弱
+    options:
+      - 红石信号
+      - 区块更新
+      - 随机刻
+      - 计划刻
+    answer: 0
+    id: XuGRdeGxcbYsz2PlGmfoxoxwmskgLzxu
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：劫掠事件号角响，魔法攻击唤魔者
+    options:
+      - 掠夺者
+      - 唤魔者
+      - 卫道士
+      - 幻术师
+    answer: 1
+    id: pCAPOC6gIGNmfuB8HyMBeRqgPfSlwXXs
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：紫颂植物瞬移果，末地城外生长多
+    options:
+      - 紫颂花
+      - 紫颂植株
+      - 末地石
+      - 龙蛋
+    answer: 1
+    id: Bf3KTgFX99sNrQ2326DYHpiTgQHqLLFC
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：鞘翅飞翔烟花助，火焰之星推进速
+    options:
+      - 烟花火箭
+      - 火焰弹
+      - 烈焰粉
+      - 火药
+    answer: 0
+    id: GH3QpSExVLnxojpQ9ubVuQIpheCMNnor
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：林地府邸黑森林，卫道士斧唤魔者
+    options:
+      - 林地府邸
+      - 掠夺者前哨站
+      - 村庄
+      - 雪屋
+    answer: 0
+    id: RQWcKaNJuA6As9BnjVWOWAcsTYYfLaLI
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：蜜蜂采蜜花丛忙，蜂巢激怒群体伤
+    options:
+      - 蜜蜂
+      - 蝙蝠
+      - 鹦鹉
+      - 发光鱿鱼
+    answer: 0
+    id: UxGpQPCkdXwg3ju4cMNTnINtVng4y27y
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：堆肥桶上作物扔，骨粉产出施肥勤
+    options:
+      - 堆肥桶
+      - 酿造台
+      - 烟熏炉
+      - 高炉
+    answer: 0
+    id: ODRaVOU9poBhcDPlw1t3PcXsY221AV41
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：下界合金装备强，远古残骸烧炼忙
+    options:
+      - 远古残骸
+      - 下界合金锭
+      - 下界合金碎片
+      - 金锭
+    answer: 1
+    id: E7e0dNcH0lkYmDj9lr8TPPYbPyQ8zquj
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：村民交易等级升，大师级卖附魔书
+    options:
+      - 村民交易
+      - 声望系统
+      - 职业方块
+      - 繁殖机制
+    answer: 0
+    id: 8Z7rCZEn6oCudzNEAko2Z4tBTf9AVEep
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：哞菇蘑菇背上长，碗挤蘑菇汤
+    options:
+      - 牛
+      - 哞菇
+      - 绵羊
+      - 山羊
+    answer: 1
+    id: d6s8NYiFear0FZUrZBNRWCOq9wNMWcoi
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：脚手架攀爬速建，熊猫繁殖竹子需
+    options:
+      - 梯子
+      - 藤蔓
+      - 脚手架
+      - 竹板
+    answer: 2
+    id: BfEdkNqboaVehd7Zrxzkibwoc6IxWGlE
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：不死图腾手中握，濒死复活金身护
+    options:
+      - 不死图腾
+      - 附魔金苹果
+      - 金苹果
+      - 再生药水
+    answer: 0
+    id: 2GlRD0f9laa6itYkzaStT2lliCJlQ7Gz
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：废弃矿井蜘蛛网，宝箱矿车轨道长
+    options:
+      - 废弃矿井
+      - 地牢
+      - 要塞
+      - 深暗之域
+    answer: 0
+    id: 9Psjk9XziYzvyM3qLw7nYtSfOM76sMgD
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：美西螈水中游，挖掘疲劳攻击守
+    options:
+      - 热带鱼
+      - 美西螈
+      - 河豚
+      - 鳕鱼
+    answer: 1
+    id: N73N6izjck5yCyCOG8lvxub9sPwOboA2
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：避雷针顶引雷光，铜块氧化绿锈长
+    options:
+      - 避雷针
+      - 铜块
+      - 红石块
+      - 侦测器
+    answer: 0
+    id: crHCBFuTKbQ6DRCSvzgaFdtQ20qECW6J
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：望远镜中远处望，紫水晶碎片铜锭合
+    options:
+      - 望远镜
+      - 地图
+      - 指南针
+      - 时钟
+    answer: 0
+    id: bOpmTh8LD0951iQgHY78JKy2adjylqST
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：袭击事件号角响，不祥之兆村庄攻
+    options:
+      - 袭击机制
+      - 劫掠机制
+      - 村庄英雄
+      - 不祥之兆
+    answer: 0
+    id: s60l4D8qXgPlEsamjFa5vegslr6i2rmm
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：发光鱿鱼深海游，荧光墨囊告示亮
+    options:
+      - 鱿鱼
+      - 发光鱿鱼
+      - 美西螈
+      - 海豚
+    answer: 1
+    id: nGpeiSdyQMojg5iZZwrufXW16mQSPCWW
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：幽匿催发体经验吸，幽匿脉络蔓延速
+    options:
+      - 幽匿催发体
+      - 幽匿感测体
+      - 幽匿尖啸体
+      - 幽匿脉络
+    answer: 0
+    id: MvwdYFX2949t9MnyXRawIfdtnFdOoEJc
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：回响碎片合成物，指南针指死亡处
+    options:
+      - 追溯指南针
+      - 普通指南针
+      - 地图
+      - 时钟
+    answer: 0
+    id: 87vTDkVFHPqgvKJdNmkV0I5Q7NGIn7Vh
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：深暗之域古城藏，幽匿尖啸监守者
+    options:
+      - 深暗之域
+      - 远古城市
+      - 要塞
+      - 废弃传送门
+    answer: 1
+    id: kPHgahLM8Uv4GkI60JRZLDecawAhJ2KW
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：监守者盲眼听声，声波攻击穿甲疼
+    options:
+      - 远古守卫者
+      - 监守者
+      - 凋灵
+      - 末影龙
+    answer: 1
+    id: vphqON1MGBNvgIY1vMgUhMH6SLUju4c6
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：校频幽匿感测体，红石信号频率分
+    options:
+      - 幽匿感测体
+      - 校频幽匿感测体
+      - 幽匿尖啸体
+      - 侦测器
+    answer: 1
+    id: 9O96tBxT37qFP4oiQRrMXovRMTaj7x3U
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：竹板合成新木材，脚手架源材料来
+    options:
+      - 竹子
+      - 竹板
+      - 木棍
+      - 甘蔗
+    answer: 1
+    id: AovUynQXogWAH7FsjN66EUT2i5dT8AwC
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：锻造模板升级用，下界合金装备成
+    options:
+      - 锻造模板
+      - 锻造台
+      - 锻造机制
+      - 升级机制
+    answer: 0
+    id: f6ivSzXurdL8kxzMEeYQugZAwS5EePHd
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：骆驼沙漠双驼峰，骑乘两人跳不高
+    options:
+      - 羊驼
+      - 骆驼
+      - 马
+      - 驴
+    answer: 1
+    id: zWDiZsSohwmgvQm89dLmAHUH4pVXunNV
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：悬挂式告示牌，锁链铁锭合成新
+    options:
+      - 告示牌
+      - 悬挂式告示牌
+      - 展示框
+      - 荧光展示框
+    answer: 1
+    id: sh3kw7sEFoYbAQJXYwaxpOtwNpjYrEvv
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：刷子考古用，可疑沙砾陶片出
+    options:
+      - 刷子
+      - 铁锹
+      - 镐
+      - 锄
+    answer: 0
+    id: CC7L4uWUnT8X1VGePy47wc8Tq8v1PoXm
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：海底废墟考古点，可疑沙块陶片藏
+    options:
+      - 海底废墟
+      - 海底神殿
+      - 沉船
+      - 海洋废墟
+    answer: 0
+    id: FBShvMSV8uUXZMqKLaARUd8qUhvNkCKZ
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：嗅探兽蛋孵化长，火把花种子挖出
+    options:
+      - 熊猫
+      - 嗅探兽
+      - 狐狸
+      - 猫
+    answer: 1
+    id: GdtzMOMQIzibOIkXR7kE19SoI2lDTQ76
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：樱花树叶粉飘落，蜜蜂授粉花丛多
+    options:
+      - 橡树树叶
+      - 樱花树叶
+      - 杜鹃树叶
+      - 红树树叶
+    answer: 1
+    id: tybX0oFZZZho5Kn8qr8rBqRj1Q6vK2AA
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：锻造模板复制用，七个金块钻石一
+    options:
+      - 下界合金升级模板
+      - 哨兵盔甲纹饰
+      - 锻造模板
+      - 模具
+    answer: 2
+    id: 4QZxGqWxb68yokVOhxMpZResDKLJvKaj
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：生物群系温度定，积雪冰原北极熊
+    options:
+      - 生物群系
+      - 气候系统
+      - 群系生成
+      - 世界生成
+    answer: 0
+    id: X68W3XANPoeNAJZ13LdknzkTxu7itQlU
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：青蛙蝌蚪水中游，小型岩浆怪吞食
+    options:
+      - 青蛙
+      - 蝾螈
+      - 鱼
+      - 海豚
+    answer: 0
+    id: mY1ybG6ZLWxFZgvubzEZz74i6RZyLS3R
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：红树根水下生，泥块合成新方块
+    options:
+      - 红树根
+      - 红树木
+      - 泥巴
+      - 沾泥的红树根
+    answer: 0
+    id: 87QmBjpZoFV9AZvg41YhkarY4CK8Wfy1
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：陶片合成装饰罐，四种图案各不同
+    options:
+      - 陶片
+      - 装饰罐
+      - 花盆
+      - 炼药锅
+    answer: 1
+    id: GW2rRtqoGSPleSoH5IMU7V4ed28DP8cO
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：试炼密室刷怪笼，不祥试炼钥匙开
+    options:
+      - 试炼密室
+      - 地牢
+      - 深暗之域
+      - 要塞
+    answer: 0
+    id: drQyBHCrZInMIVjZDxAKMhRPRioFW3oZ
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：旋风人试炼生，风弹攻击击退强
+    options:
+      - 烈焰人
+      - 旋风人
+      - 恶魂
+      - 潜影贝
+    answer: 1
+    id: 703w9C0Kl8KMG4Xyawq6jVcH3B0dC9G4
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：试炼刷怪笼激活，玩家靠近怪物生
+    options:
+      - 刷怪笼
+      - 试炼刷怪笼
+      - 不祥试炼刷怪笼
+      - 刷怪蛋
+    answer: 1
+    id: d7NdBLiSv2BMk84xQZmRq55jWiZDPTY4
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：重锤下坠攻击强，旋风棒合成新武器
+    options:
+      - 重锤
+      - 旋风棒
+      - 风弹
+      - 三叉戟
+    answer: 0
+    id: 1FUK9xbXmn87ZFjlfoywulTzBMqUmsST
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：合成配方解锁制，知识之书全解锁
+    options:
+      - 合成配方
+      - 配方书
+      - 知识之书
+      - 合成机制
+    answer: 1
+    id: pYTnw57onNExlCHcgSaJprJYkN0fvCRD
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：沼骸骷髅变种，剧毒之箭攻击强
+    options:
+      - 流浪者
+      - 沼骸
+      - 凋灵骷髅
+      - 骷髅
+    answer: 1
+    id: npnstqDFaDSIHmPCTQeEjcwJOUEJpPh1
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：苍白橡树新树种，苍白之园生物群
+    options:
+      - 深色橡木
+      - 苍白橡木
+      - 白桦木
+      - 金合欢木
+    answer: 1
+    id: 2UsvQZr4Goy6lbbeZFCD99yncUY5tMNV
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：树脂团树干粘，树脂砖合成新方块
+    options:
+      - 树脂团
+      - 树脂砖
+      - 琥珀
+      - 树液
+    answer: 0
+    id: mSkHvz8PZiU7zUqtv63GVDAXURcT6TU8
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：雪屋地下室藏，牧师僵尸治愈方
+    options:
+      - 雪屋
+      - 村庄
+      - 掠夺者前哨站
+      - 林地府邸
+    answer: 0
+    id: tz9BwIgnVk6SaiKJSHUx93CS5eNz2Cja
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：铁傀儡村庄护，南瓜铁块四方筑
+    options:
+      - 雪傀儡
+      - 铁傀儡
+      - 铜傀儡
+      - 凋零
+    answer: 1
+    id: 9hUjsOYngLc98nn2JLLmbKcYIn6sLME0
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：潜影盒收纳强，爆炸推动不掉落
+    options:
+      - 箱子
+      - 末影箱
+      - 潜影盒
+      - 木桶
+    answer: 2
+    id: ZSPykncZoyKxo6T0xhYm2ytnF1jJLZSU
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：龙蛋末地战利品，点击瞬移收集难
+    options:
+      - 龙蛋
+      - 龙首
+      - 龙息
+      - 龙鳞
+    answer: 0
+    id: Rdl6uJbMZzCYZEDEF3QXxxY1OQ3cou0g
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：附魔台书架围，三十级附魔最高
+    options:
+      - 附魔机制
+      - 附魔台
+      - 书架
+      - 青金石
+    answer: 0
+    id: bNNZ26qd7BcOQO5VWxK3zHxZlqcQLIW0
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：女巫小屋药水炼，喷溅药水负面效
+    options:
+      - 女巫
+      - 唤魔者
+      - 幻术师
+      - 牧师
+    answer: 0
+    id: k7cPdciPFahzhzaNeGBArrNkcJqrcHZT
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：命令方块OP用，指令执行红石控
+    options:
+      - 结构方块
+      - 命令方块
+      - 屏障
+      - 拼图方块
+    answer: 1
+    id: BQM2cNvp5QXHLOtjGBPX8et45GUo7JWB
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：海洋之心合成物，潮涌核心水中护
+    options:
+      - 海洋之心
+      - 鹦鹉螺壳
+      - 海晶碎片
+      - 海晶砂粒
+    answer: 0
+    id: UzNSCrCf6g5mNaSzopUjEqTvOd4ShbRx
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：沉船海底宝藏藏，宝箱地图指向忙
+    options:
+      - 沉船
+      - 海底废墟
+      - 海洋神殿
+      - 埋藏的宝藏
+    answer: 0
+    id: U2DttseIHQ77vtfmCCMKOKtjt0ZjPVp2
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：海豚跳跃伴游速，给予玩家海豚佑
+    options:
+      - 鳕鱼
+      - 鲑鱼
+      - 海豚
+      - 河豚
+    answer: 2
+    id: FbeYOMAqTFx4teut81WEDwhGVJQPp0zu
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：蜂蜜块粘性缓，跌落无伤缓冲强
+    options:
+      - 粘液块
+      - 蜂蜜块
+      - 干草捆
+      - 床
+    answer: 1
+    id: fZVQJWPc97ykkFyeEpK7BVtzVUoheJFl
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：三叉戟溺尸掉，引雷穿刺忠诚附
+    options:
+      - 三叉戟
+      - 鱼叉
+      - 长矛
+      - 标枪
+    answer: 0
+    id: 1oYC1CrqTouVbbyoayV1SdHLYV4QAPYB
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：袭击波数逐增加，劫掠兽卫道士多
+    options:
+      - 袭击机制
+      - 波数机制
+      - 难度机制
+      - 劫掠机制
+    answer: 0
+    id: vWeHepmnkcwSCN1c1U24zd0VqCxd54Lt
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：流浪商人 llamas 随，隐身药水夜晚归
+    options:
+      - 村民
+      - 流浪商人
+      - 商人
+      - 行商
+    answer: 1
+    id: qMzMeoqpMAVG55FoN9sR38shxMdLKDOt
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：制图台地图合，复制缩放标记忙
+    options:
+      - 工作台
+      - 制图台
+      - 讲台
+      - 锻造台
+    answer: 1
+    id: ea4rb7DancDp654ntPuJfgJ99A5MxrD9
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：不死图腾林地府，唤魔者掉落珍稀
+    options:
+      - 不死图腾
+      - 图腾
+      - 护身符
+      - 护符
+    answer: 0
+    id: bsxiyaPI8A7j7NAuuErsVzHVCjRdR6Zm
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：掠夺者前哨站，灾厄村民刷怪笼
+    options:
+      - 林地府邸
+      - 掠夺者前哨站
+      - 村庄
+      - 雪屋
+    answer: 1
+    id: pZ1BBqjJ0CM1SE3PhYvU4R7JZ9TlJIPh
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：劫掠兽冲撞强，弩箭骑乘掠夺者
+    options:
+      - 卫道士
+      - 劫掠兽
+      - 掠夺者
+      - 唤魔者
+    answer: 1
+    id: s3dwdmyexzsrN3elK9snsgZ5f2secqe0
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：烟熏炉烹饪速，食物两倍效率出
+    options:
+      - 熔炉
+      - 烟熏炉
+      - 高炉
+      - 篝火
+    answer: 1
+    id: bmOTPRSxD8fvbPXpklSu13nsp6cPxe7Q
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：弩箭连射多重箭，穿透快速装填附
+    options:
+      - 弓
+      - 弩
+      - 三叉戟
+      - 箭
+    answer: 1
+    id: fxLK7PSmPBoQgQzkCttTXJfJH0hCYd87
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：信标金字塔光，五种效果范围赐
+    options:
+      - 信标机制
+      - 金字塔机制
+      - 效果机制
+      - 范围机制
+    answer: 0
+    id: 3qZXzDTqJ9kmPcqIgZxQO7mSO4HB7yEY
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：熊猫竹子为食，懒惰顽皮棕变种
+    options:
+      - 北极熊
+      - 熊猫
+      - 棕熊
+      - 浣熊
+    answer: 1
+    id: CB1b4FFtJBRb9iGtUjfgvoDsdoqPPxbY
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：堆肥桶农民用，骨粉产出作物肥
+    options:
+      - 堆肥桶
+      - 炼药锅
+      - 木桶
+      - 箱子
+    answer: 0
+    id: kC7FD39DmKFcFr9iDq7dlkffxa6fgqhu
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：谜之炖菜 suspicious，花种不同效果异
+    options:
+      - 蘑菇煲
+      - 谜之炖菜
+      - 甜菜汤
+      - 兔肉煲
+    answer: 1
+    id: eGk8CqItbDze5fFMlKqiu2C32j6ACgiS
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：丛林神庙拉杆藏，发射器箭陷阱忙
+    options:
+      - 沙漠神殿
+      - 丛林神庙
+      - 海底神殿
+      - 林地府邸
+    answer: 1
+    id: DyGKbGC90kfUExnsl40l2D366Gd3DtAq
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：鹦鹉丛林彩色羽，跳舞吃曲奇中毒
+    options:
+      - 鸡
+      - 鹦鹉
+      - 乌鸦
+      - 喜鹊
+    answer: 1
+    id: 1UaBlAnpY4uYjON1DJTCRDdFAzYT5f5K
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：讲台阅读红石出，村民转职图书管
+    options:
+      - 讲台
+      - 制图台
+      - 锻造台
+      - 织布机
+    answer: 0
+    id: Dqm6ksMaJbz7NffyVI2lPv9ucOWJci0f
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：地图空右键绘，缩放标记探险忙
+    options:
+      - 地图
+      - 空地图
+      - 探险家地图
+      - 藏宝图
+    answer: 1
+    id: Uwxsbc8QlhpjBwBmoiiOfxYqikZ7eMMA
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：村民繁殖意愿生，面包胡萝卜马铃薯
+    options:
+      - 村民繁殖
+      - 意愿机制
+      - 食物机制
+      - 交易机制
+    answer: 0
+    id: 9iOCzC9f6l5YhmfNunDWwoh3Goraae6U
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：狐狸浆果为食，嘴里叼物跳跃取
+    options:
+      - 狼
+      - 狐狸
+      - 猫
+      - 豹猫
+    answer: 1
+    id: irY8M4wgu96naE0BRskFLH3oK0XJF17g
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：织布机旗帜合，图案染料花样多
+    options:
+      - 工作台
+      - 织布机
+      - 制图台
+      - 锻造台
+    answer: 1
+    id: 5eqp1bD3uoZVEPHwjMREY0TigIwXGSGR
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：旗帜图案盾牌移，织布机合成新花样
+    options:
+      - 旗帜
+      - 盾牌
+      - 旗帜图案
+      - 纹样
+    answer: 2
+    id: DQYP0EKHlzzLA1kWnbETO6clwlnUmoco
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：废弃传送门下界，宝箱金锭哭泣黑曜
+    options:
+      - 废弃传送门
+      - 要塞
+      - 地牢
+      - 深暗之域
+    answer: 0
+    id: EkKBXM7RYBTXLq36XWoGRkETh0FfMysv
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：炽足兽岩浆行，诡异菌钓杆骑乘
+    options:
+      - 猪灵
+      - 炽足兽
+      - 岩浆怪
+      - 烈焰人
+    answer: 1
+    id: Az0qAfIc2UImxSm3WsrIKO1pwl5WYK7j
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：灵魂火蓝焰冷，灵魂土上永不灭
+    options:
+      - 灵魂火
+      - 灵魂土
+      - 灵魂沙
+      - 蓝火
+    answer: 0
+    id: z2Rx5uOpOdGgWesyvpMGT0yhRb1ZSyCr
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：诡异菌钓杆合成，炽足兽骑乘控制
+    options:
+      - 钓鱼竿
+      - 诡异菌钓杆
+      - 胡萝卜钓杆
+      - 鞍
+    answer: 1
+    id: 4oHtOdYMCKoeAEAXkmSwXa29AXq6k7Ej
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：猪灵以物易物，金锭投掷物品换
+    options:
+      - 交易系统
+      - 以物易物
+      - 猪灵交易
+      - 金锭机制
+    answer: 1
+    id: 20lK06Fjm7pApmYWnRAB309p9W669yJs
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：疣猪兽下界猪，繁殖诡异菌肉生
+    options:
+      - 猪
+      - 疣猪兽
+      - 猪灵
+      - 炽足兽
+    answer: 1
+    id: iqU5fZW229gOtlSbJOhYRVEl2OIM2CzB
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：重生锚爆炸强，荧石充能下界床
+    options:
+      - 床
+      - 重生锚
+      - 重生点
+      - 传送门
+    answer: 1
+    id: 33rmNRae55rcODJrkYvzgB9WS1qPnyp0
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：下界合金碎片四，金锭四合成锭一
+    options:
+      - 远古残骸
+      - 下界合金碎片
+      - 下界合金锭
+      - 金锭
+    answer: 2
+    id: 3fIgYsALSQknXW2x7SW1zWG11r8sF1KO
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：堡垒遗迹猪灵藏，宝箱金块熔岩烫
+    options:
+      - 堡垒遗迹
+      - 下界要塞
+      - 废弃传送门
+      - 猪灵堡垒
+    answer: 0
+    id: YCZGhsYIgfDSuTKXUo42neTNjX8OKctj
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：猪灵蛮兵堡垒守，金斧攻击仇恨久
+    options:
+      - 猪灵
+      - 猪灵蛮兵
+      - 疣猪兽
+      - 烈焰人
+    answer: 1
+    id: VKcIEC2HDZewk78imjTybRscoaGMl0M4
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：磁石指南针绑，迷失方向找回忙
+    options:
+      - 磁石
+      - 指南针
+      - 重生锚
+      - 信标
+    answer: 0
+    id: KKFVI3Q8DiqIR4niHnVeTJ3a6G4gkpRI
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：锁链靴子合成轻，细雪行走不下陷
+    options:
+      - 铁靴子
+      - 锁链靴子
+      - 金靴子
+      - 钻石靴子
+    answer: 1
+    id: TJE5n0q722BuaFhnytQzhMXJ7AvA4dzH
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：细雪寒冷效果，皮革装备可御寒
+    options:
+      - 细雪机制
+      - 寒冷机制
+      - 温度机制
+      - 冰冻机制
+    answer: 0
+    id: FFbCkJhZh9BSjwgtulLqJL5v4ZYiGNf8
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：山羊山地冲撞强，跌落保护角掉落
+    options:
+      - 绵羊
+      - 山羊
+      - 牛
+      - 驴
+    answer: 1
+    id: Kuxd9mPwr2uCegWMTZVfZXj4c4nZRxbI
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：紫水晶簇生长，骨粉催熟望远镜合
+    options:
+      - 紫水晶母岩
+      - 紫水晶簇
+      - 紫水晶芽
+      - 紫水晶块
+    answer: 1
+    id: wM128DHBXFbUvorZXzATqmppCEHsQttq
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：望远镜紫水晶合，铜锭三碎片二
+    options:
+      - 望远镜
+      - 紫水晶碎片
+      - 铜锭
+      - 玻璃
+    answer: 0
+    id: 5dKOJTtkGcyhwGH0AHapC8Y07fJXsV8o
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：紫水晶洞地下藏，紫水晶簇生长忙
+    options:
+      - 紫水晶洞
+      - 深暗之域
+      - 废弃矿井
+      - 地牢
+    answer: 0
+    id: lfyLLyA0OmBDK0B93g9FX49BzgCeU9pU
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：美西螈桶装走，挖掘疲劳攻击守
+    options:
+      - 鱼
+      - 美西螈
+      - 热带鱼
+      - 河豚
+    answer: 1
+    id: 9uD7KvVi6EidQFLj06D6C5nhA1l5akr2
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：遮光玻璃合成新，紫水晶碎片四
+    options:
+      - 玻璃
+      - 遮光玻璃
+      - 染色玻璃
+      - 玻璃板
+    answer: 1
+    id: IcS1rpYQWqP91XldentaGLs2mwsu1Xb7
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：铜锭氧化四阶，蜜脾涂蜡止氧化
+    options:
+      - 铜块
+      - 涂蜡铜块
+      - 氧化铜块
+      - 铜锭
+    answer: 1
+    id: arw4R8bN2iSB02vjVYJhKDFCeDr0BqYI
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：闪电避雷针引，铜块氧化加速
+    options:
+      - 避雷机制
+      - 氧化机制
+      - 闪电机制
+      - 铜机制
+    answer: 1
+    id: L5hlgQrAQtB7P2ZFzOmkS18sXR9LH0qS
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：发光鱿鱼深海游，荧光墨囊告示亮
+    options:
+      - 鱿鱼
+      - 发光鱿鱼
+      - 美西螈
+      - 海豚
+    answer: 1
+    id: 8BDTm6M1lJmTUmKEL4Ufzg0sCloTCgk7
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：幽匿感测体振动听，红石信号频率分
+    options:
+      - 幽匿感测体
+      - 幽匿催发体
+      - 幽匿尖啸体
+      - 幽匿脉络
+    answer: 0
+    id: cx4g35O3Tnjeot15hH62HKdj3pcN39hE
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：回响碎片古城藏，追溯指南针合成
+    options:
+      - 回响碎片
+      - 指南针
+      - 紫水晶碎片
+      - 钻石
+    answer: 0
+    id: 5FuJJgTXjrveY9qSHT8vQuWeFplmwrhl
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：远古城市深暗域，监守者守护宝藏
+    options:
+      - 深暗之域
+      - 远古城市
+      - 要塞
+      - 废弃传送门
+    answer: 1
+    id: wfrANjl7CuLMRQ8ymI6fDyTmtDFF9ZC4
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：监守者盲眼听声，声波攻击穿甲疼
+    options:
+      - 远古守卫者
+      - 监守者
+      - 凋灵
+      - 末影龙
+    answer: 1
+    id: 27a9oEOrJpogs1K3E2qrhtWg8SCnO8Sb
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：强化深板岩古城藏，不可破坏基岩强
+    options:
+      - 基岩
+      - 强化深板岩
+      - 深板岩
+      - 黑曜石
+    answer: 1
+    id: 4hI778bI42cC5sEwuZ6jSekI7eBJyLJZ
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：迅捷潜行附魔书，古城宝箱独占出
+    options:
+      - 迅捷潜行
+      - 灵魂疾行
+      - 深海探索者
+      - 冰霜行者
+    answer: 0
+    id: fVGSWZn8MDLA6ESXGU45FL2RELIBlW4P
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：幽匿尖啸体激活，监守者从地生
+    options:
+      - 尖啸机制
+      - 监守者召唤
+      - 幽匿机制
+      - 振动机制
+    answer: 1
+    id: BRx6WztqX0njArTv1XQlY29puWOdKMFQ
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：青蛙蝌蚪水中游，小型岩浆怪吞食
+    options:
+      - 青蛙
+      - 蝾螈
+      - 鱼
+      - 海豚
+    answer: 0
+    id: 17l1pezqO1IWnp1hMkMom4tvO6OfLvTe
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：红树根水下生，泥块合成新方块
+    options:
+      - 红树根
+      - 红树木
+      - 泥巴
+      - 沾泥的红树根
+    answer: 0
+    id: ed5ivqRtS998W5QqT96Z6WUL0rcBy4gc
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：泥块合成新方块，泥坯晒干变红砖
+    options:
+      - 泥块
+      - 泥坯
+      - 红砖
+      - 陶瓦
+    answer: 1
+    id: 2vJfXN1wt9wSOIIE9LSPsFYTGs25I15U
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：红树林沼泽生，红树根盘根错节
+    options:
+      - 红树林沼泽
+      - 沼泽
+      - 河流
+      - 海洋
+    answer: 0
+    id: 9wC3Kp6wDvuIZIDoY8JGHsFz2jdgVYPF
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：蝌蚪青蛙幼体，水桶可装变青蛙
+    options:
+      - 鱼
+      - 蝌蚪
+      - 美西螈
+      - 海豚
+    answer: 1
+    id: JyQbAaAUBrPE4LgoZEpzLXfvFhTFlgCV
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：沾泥的红树根，泥巴合成新方块
+    options:
+      - 红树根
+      - 沾泥的红树根
+      - 泥巴
+      - 泥块
+    answer: 1
+    id: 7ygqdIVEHfXsi1QXYMeJyz6hLBs5kcws
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：运输船合成新，箱子和船合成忙
+    options:
+      - 船
+      - 运输船
+      - 箱子
+      - 矿车
+    answer: 1
+    id: BuI9HkY9wAON6yNHAbMqC00PEMGOHCS2
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：悦灵宝库跟随，音符盒音乐引
+    options:
+      - 悦灵机制
+      - 音乐机制
+      - 跟随机制
+      - 宝库机制
+    answer: 0
+    id: WTK0bFNGfAzR5qWw83LdX8plRmQBw3iq
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：悦灵林地府邸生，物品收集音乐引
+    options:
+      - 恼鬼
+      - 悦灵
+      - 幻翼
+      - 蝙蝠
+    answer: 1
+    id: Oqt8EdNsw1MDtF5GTculCty2nKIuaXK6
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：幽匿尖啸体激活，监守者召唤忙
+    options:
+      - 幽匿感测体
+      - 幽匿催发体
+      - 幽匿尖啸体
+      - 幽匿脉络
+    answer: 2
+    id: uW9ll3ZLYVZSh1h23XuCorYeDUbhtRmq
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：山羊角山羊掉落，四种音效各不同
+    options:
+      - 山羊角
+      - 号角
+      - 音乐唱片
+      - 音符盒
+    answer: 0
+    id: I4s831tO5485nKJR4c4x3uBaWgQxOXAt
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：深暗之域古城藏，幽匿方块遍地生
+    options:
+      - 深暗之域
+      - 远古城市
+      - 要塞
+      - 废弃传送门
+    answer: 0
+    id: E41DG1cV9azIpFZMr3E1bKZVudOSn90S
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：恼鬼唤魔者召，尖牙攻击穿墙忙
+    options:
+      - 恼鬼
+      - 悦灵
+      - 幻翼
+      - 蝙蝠
+    answer: 0
+    id: rEPuefon3FhcxkYN5uwRGNswbctJ6i01
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：校频幽匿感测体，红石信号频率分
+    options:
+      - 幽匿感测体
+      - 校频幽匿感测体
+      - 幽匿尖啸体
+      - 侦测器
+    answer: 1
+    id: EIIRou8Ui5u1sobCkEwcG8JMNuq6zpuP
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：竹板合成新木材，脚手架源材料来
+    options:
+      - 竹子
+      - 竹板
+      - 木棍
+      - 甘蔗
+    answer: 1
+    id: IGfXgt9d7oJLMPBqQnLmHI5EzNLZTFQP
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：锻造模板升级用，下界合金装备成
+    options:
+      - 锻造模板
+      - 锻造台
+      - 锻造机制
+      - 升级机制
+    answer: 0
+    id: x5QAH1GT1unlym8NHXK1vo6ODwngV9S9
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：骆驼沙漠双驼峰，骑乘两人跳不高
+    options:
+      - 羊驼
+      - 骆驼
+      - 马
+      - 驴
+    answer: 1
+    id: rYGPLQZwloJLFQH3fyOr4DnkEfLQNrHf
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：悬挂式告示牌，锁链铁锭合成新
+    options:
+      - 告示牌
+      - 悬挂式告示牌
+      - 展示框
+      - 荧光展示框
+    answer: 1
+    id: QplKUInJzzczQ9kG2IStT3ulUquotQJL
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：刷子考古用，可疑沙砾陶片出
+    options:
+      - 刷子
+      - 铁锹
+      - 镐
+      - 锄
+    answer: 0
+    id: AM1f6gL8WUKutMAAk0GidPwFCIpkLvpl
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：海底废墟考古点，可疑沙块陶片藏
+    options:
+      - 海底废墟
+      - 海底神殿
+      - 沉船
+      - 海洋废墟
+    answer: 0
+    id: HRmhAOLKgevmLozQoo8ULzZ7MGW1Ux8Y
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：嗅探兽蛋孵化长，火把花种子挖出
+    options:
+      - 熊猫
+      - 嗅探兽
+      - 狐狸
+      - 猫
+    answer: 1
+    id: 01c8VJOddxTAj2lgFU8r8i0wd0hsMZRh
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：樱花树叶粉飘落，蜜蜂授粉花丛多
+    options:
+      - 橡树树叶
+      - 樱花树叶
+      - 杜鹃树叶
+      - 红树树叶
+    answer: 1
+    id: AetQY89LbBZUHi068cPeSn4s7H5bmC1w
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：锻造模板复制用，七个金块钻石一
+    options:
+      - 下界合金升级模板
+      - 哨兵盔甲纹饰
+      - 锻造模板
+      - 模具
+    answer: 2
+    id: Uk13w78QSOvC4SnCGgn4eh9MkPEjCYbd
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：生物群系温度定，积雪冰原北极熊
+    options:
+      - 生物群系
+      - 气候系统
+      - 群系生成
+      - 世界生成
+    answer: 0
+    id: 4Ph0ftxX8VcdRwU7AXeLOemjNF5erMzy
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：青蛙蝌蚪水中游，小型岩浆怪吞食
+    options:
+      - 青蛙
+      - 蝾螈
+      - 鱼
+      - 海豚
+    answer: 0
+    id: KbCqNZo2TUUNrwvgDAE7nIOtF2qH2NVR
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：红树根水下生，泥块合成新方块
+    options:
+      - 红树根
+      - 红树木
+      - 泥巴
+      - 沾泥的红树根
+    answer: 0
+    id: pRFbWv85bYxgPRd18eHfNF1HPYb13hFJ
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：陶片合成装饰罐，四种图案各不同
+    options:
+      - 陶片
+      - 装饰罐
+      - 花盆
+      - 炼药锅
+    answer: 1
+    id: mQc3pBCwbUgab20vjwsaXCJvwW5GqV3e
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：试炼密室刷怪笼，不祥试炼钥匙开
+    options:
+      - 试炼密室
+      - 地牢
+      - 深暗之域
+      - 要塞
+    answer: 0
+    id: r9kbItlx7TOayXv1RbhLIaoDsYkAiTIG
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：旋风人试炼生，风弹攻击击退强
+    options:
+      - 烈焰人
+      - 旋风人
+      - 恶魂
+      - 潜影贝
+    answer: 1
+    id: cag2cugnR9T5vG1IlL5kjgyqvenP20fp
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：试炼刷怪笼激活，玩家靠近怪物生
+    options:
+      - 刷怪笼
+      - 试炼刷怪笼
+      - 不祥试炼刷怪笼
+      - 刷怪蛋
+    answer: 1
+    id: YX3XmaHUytZOowXzUP4KRgSafZ9iVDRu
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：重锤下坠攻击强，旋风棒合成新武器
+    options:
+      - 重锤
+      - 旋风棒
+      - 风弹
+      - 三叉戟
+    answer: 0
+    id: cT4mzY1ymIx0c6GsQz1EkpMMHXi3xdiT
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：合成配方解锁制，知识之书全解锁
+    options:
+      - 合成配方
+      - 配方书
+      - 知识之书
+      - 合成机制
+    answer: 1
+    id: hjh5UM1iEBXKda6Ey2MNhnPQaYEpjkoC
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：沼骸骷髅变种，剧毒之箭攻击强
+    options:
+      - 流浪者
+      - 沼骸
+      - 凋灵骷髅
+      - 骷髅
+    answer: 1
+    id: MShJlngJU8Q6Re35aZd5pRipy61zsXmu
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：苍白橡树新树种，苍白之园生物群
+    options:
+      - 深色橡木
+      - 苍白橡木
+      - 白桦木
+      - 金合欢木
+    answer: 1
+    id: fKbuO6stOKhpsXsJbjIPb9Fa7cY35Yxt
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：树脂团树干粘，树脂砖合成新方块
+    options:
+      - 树脂团
+      - 树脂砖
+      - 琥珀
+      - 树液
+    answer: 0
+    id: Tb4qfmvEIO8nm5s0uZvr9San7cyG67W6
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：雪屋地下室藏，牧师僵尸治愈方
+    options:
+      - 雪屋
+      - 村庄
+      - 掠夺者前哨站
+      - 林地府邸
+    answer: 0
+    id: 44RZpRqkCHbFB8XhsfW7TDLuRpmprhTX
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：铁傀儡村庄护，南瓜铁块四方筑
+    options:
+      - 雪傀儡
+      - 铁傀儡
+      - 铜傀儡
+      - 凋零
+    answer: 1
+    id: n44to9vb3BVlyUrCklDPobUvkF1bhzaa
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：潜影盒收纳强，爆炸推动不掉落
+    options:
+      - 箱子
+      - 末影箱
+      - 潜影盒
+      - 木桶
+    answer: 2
+    id: wTHWZcPJdwDyt5J1GQ8V8kHYo3KhGN12
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：龙蛋末地战利品，点击瞬移收集难
+    options:
+      - 龙蛋
+      - 龙首
+      - 龙息
+      - 龙鳞
+    answer: 0
+    id: o7pY4ED9QRqxJ9dZa4oTa2kq8G6r7Ect
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：附魔台书架围，三十级附魔最高
+    options:
+      - 附魔机制
+      - 附魔台
+      - 书架
+      - 青金石
+    answer: 0
+    id: DslHRnXHg4c76c1nVp44ky1UgZ7dfVcB
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：女巫小屋药水炼，喷溅药水负面效
+    options:
+      - 女巫
+      - 唤魔者
+      - 幻术师
+      - 牧师
+    answer: 0
+    id: mNrN1bjCKDiV3PyWrErNi3HfWbIVtPEP
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：命令方块OP用，指令执行红石控
+    options:
+      - 结构方块
+      - 命令方块
+      - 屏障
+      - 拼图方块
+    answer: 1
+    id: 23IDpYKBoREpGl77FaWdtqtR8xwS848C
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：海洋之心合成物，潮涌核心水中护
+    options:
+      - 海洋之心
+      - 鹦鹉螺壳
+      - 海晶碎片
+      - 海晶砂粒
+    answer: 0
+    id: gAZcdRDpAygiZiP5UoTZ3cEuj4AA2l4H
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：沉船海底宝藏藏，宝箱地图指向忙
+    options:
+      - 沉船
+      - 海底废墟
+      - 海洋神殿
+      - 埋藏的宝藏
+    answer: 0
+    id: KraNbrVdjyMrgUBGYEI251rWYjjUfUBO
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：海豚跳跃伴游速，给予玩家海豚佑
+    options:
+      - 鳕鱼
+      - 鲑鱼
+      - 海豚
+      - 河豚
+    answer: 2
+    id: RGvZu2Plult4Pn8MGX8RAI1AkHsqQXiU
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：蜂蜜块粘性缓，跌落无伤缓冲强
+    options:
+      - 粘液块
+      - 蜂蜜块
+      - 干草捆
+      - 床
+    answer: 1
+    id: s6AwfqAT3tbIYJ9Qut2CBPgemxBmUUEb
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：三叉戟溺尸掉，引雷穿刺忠诚附
+    options:
+      - 三叉戟
+      - 鱼叉
+      - 长矛
+      - 标枪
+    answer: 0
+    id: oZYdUetr38TzhHIHp1wu3e1ZyM3eVCDW
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：袭击波数逐增加，劫掠兽卫道士多
+    options:
+      - 袭击机制
+      - 波数机制
+      - 难度机制
+      - 劫掠机制
+    answer: 0
+    id: 3WYkZD91Bc2QPkWvRCMaOfbLZWt7FQdB
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：流浪商人 llamas 随，隐身药水夜晚归
+    options:
+      - 村民
+      - 流浪商人
+      - 商人
+      - 行商
+    answer: 1
+    id: elDd1mkXM8D4RRbNmH7I7I8Ts5oZ5sTh
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：制图台地图合，复制缩放标记忙
+    options:
+      - 工作台
+      - 制图台
+      - 讲台
+      - 锻造台
+    answer: 1
+    id: dTMb3dWtDmBGHn593nvYICVJUPdFHLgY
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：不死图腾林地府，唤魔者掉落珍稀
+    options:
+      - 不死图腾
+      - 图腾
+      - 护身符
+      - 护符
+    answer: 0
+    id: NfIBFZinC5UVcHsC4DScXuxtmgKT8tmK
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：掠夺者前哨站，灾厄村民刷怪笼
+    options:
+      - 林地府邸
+      - 掠夺者前哨站
+      - 村庄
+      - 雪屋
+    answer: 1
+    id: Qi3YULwIc4YAigfT3Sc6ZwOOlwM1PFml
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：劫掠兽冲撞强，弩箭骑乘掠夺者
+    options:
+      - 卫道士
+      - 劫掠兽
+      - 掠夺者
+      - 唤魔者
+    answer: 1
+    id: wkN7aDOCUN22SMDXTGeofoOB09WjxzdS
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：烟熏炉烹饪速，食物两倍效率出
+    options:
+      - 熔炉
+      - 烟熏炉
+      - 高炉
+      - 篝火
+    answer: 1
+    id: aeUZa2MEFG4ORjrEZW28BFwENaxsKFqa
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：弩箭连射多重箭，穿透快速装填附
+    options:
+      - 弓
+      - 弩
+      - 三叉戟
+      - 箭
+    answer: 1
+    id: j9vqgSg6mAlTaECXcX6IgYn4NIBN0Rgc
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：信标金字塔光，五种效果范围赐
+    options:
+      - 信标机制
+      - 金字塔机制
+      - 效果机制
+      - 范围机制
+    answer: 0
+    id: VF93bldyDLSkK79B83jGfyX4TUSdElMk
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：熊猫竹子为食，懒惰顽皮棕变种
+    options:
+      - 北极熊
+      - 熊猫
+      - 棕熊
+      - 浣熊
+    answer: 1
+    id: lTw7bTQGzseSZ7GUYUEcjHxvK49uPsTa
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：堆肥桶农民用，骨粉产出作物肥
+    options:
+      - 堆肥桶
+      - 炼药锅
+      - 木桶
+      - 箱子
+    answer: 0
+    id: UhBvf0Ljh6oJEB3dXKgQP1ljaY7X6eIE
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：谜之炖菜 suspicious，花种不同效果异
+    options:
+      - 蘑菇煲
+      - 谜之炖菜
+      - 甜菜汤
+      - 兔肉煲
+    answer: 1
+    id: hLybrTDveuR1Kgj5Le21OCqHCMSLOGoM
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：丛林神庙拉杆藏，发射器箭陷阱忙
+    options:
+      - 沙漠神殿
+      - 丛林神庙
+      - 海底神殿
+      - 林地府邸
+    answer: 1
+    id: 7USY9H5CfBHYNApWbhPTkAJPAeGPxzZT
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：鹦鹉丛林彩色羽，跳舞吃曲奇中毒
+    options:
+      - 鸡
+      - 鹦鹉
+      - 乌鸦
+      - 喜鹊
+    answer: 1
+    id: 48APK4rcv9mZJdye9XwVVjfhtIlL6Za1
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：讲台阅读红石出，村民转职图书管
+    options:
+      - 讲台
+      - 制图台
+      - 锻造台
+      - 织布机
+    answer: 0
+    id: 0Ff5FIe9Ss3gE1w2vBLssm1pa56SnaT8
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：地图空右键绘，缩放标记探险忙
+    options:
+      - 地图
+      - 空地图
+      - 探险家地图
+      - 藏宝图
+    answer: 1
+    id: ky9cZZAk4z1oUHaXOlDGZpb11e3JLVLb
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：村民繁殖意愿生，面包胡萝卜马铃薯
+    options:
+      - 村民繁殖
+      - 意愿机制
+      - 食物机制
+      - 交易机制
+    answer: 0
+    id: mzmDKr1zOEf3eOmViLN0bgFnsARaptuo
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：狐狸浆果为食，嘴里叼物跳跃取
+    options:
+      - 狼
+      - 狐狸
+      - 猫
+      - 豹猫
+    answer: 1
+    id: nAR555H9T7OYORpOohZHgj6Tr8xjgG6d
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：织布机旗帜合，图案染料花样多
+    options:
+      - 工作台
+      - 织布机
+      - 制图台
+      - 锻造台
+    answer: 1
+    id: 40sWQYe99x7fW292Sijxr7TnaPv4869N
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：旗帜图案盾牌移，织布机合成新花样
+    options:
+      - 旗帜
+      - 盾牌
+      - 旗帜图案
+      - 纹样
+    answer: 2
+    id: avCnDcrcea6jONuoC4dSvmWPZrJKHE6u
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：废弃传送门下界，宝箱金锭哭泣黑曜
+    options:
+      - 废弃传送门
+      - 要塞
+      - 地牢
+      - 深暗之域
+    answer: 0
+    id: 7louQSF2xd34s9lbxuEubw2jNuGbJO3K
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：炽足兽岩浆行，诡异菌钓杆骑乘
+    options:
+      - 猪灵
+      - 炽足兽
+      - 岩浆怪
+      - 烈焰人
+    answer: 1
+    id: HKt16a7bdoERMT353D9qR1MyPuMdaUJ2
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：灵魂火蓝焰冷，灵魂土上永不灭
+    options:
+      - 灵魂火
+      - 灵魂土
+      - 灵魂沙
+      - 蓝火
+    answer: 0
+    id: tBB81gJQ37ZJEMUgEEnclLZrFKwX5nAu
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：诡异菌钓杆合成，炽足兽骑乘控制
+    options:
+      - 钓鱼竿
+      - 诡异菌钓杆
+      - 胡萝卜钓杆
+      - 鞍
+    answer: 1
+    id: 3SQrxPTx0qQ9DWK3IpGgTfURxbUVFsKG
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：猪灵以物易物，金锭投掷物品换
+    options:
+      - 交易系统
+      - 以物易物
+      - 猪灵交易
+      - 金锭机制
+    answer: 1
+    id: NavLGGu0o9YtxoFiePBuTvQ3QFJ7EVTj
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：疣猪兽下界猪，繁殖诡异菌肉生
+    options:
+      - 猪
+      - 疣猪兽
+      - 猪灵
+      - 炽足兽
+    answer: 1
+    id: gBMKSdhlCMcsMlKhcMDmTljQ7UWppPP3
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：重生锚爆炸强，荧石充能下界床
+    options:
+      - 床
+      - 重生锚
+      - 重生点
+      - 传送门
+    answer: 1
+    id: 9SPUGPLprYQft8ExtzS5iWdXEFo7PE9i
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：下界合金碎片四，金锭四合成锭一
+    options:
+      - 远古残骸
+      - 下界合金碎片
+      - 下界合金锭
+      - 金锭
+    answer: 2
+    id: w3yO2jluyFX9OFZqP0Gs3eIRjyqN8myK
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：堡垒遗迹猪灵藏，宝箱金块熔岩烫
+    options:
+      - 堡垒遗迹
+      - 下界要塞
+      - 废弃传送门
+      - 猪灵堡垒
+    answer: 0
+    id: GyC7dkuQSF1kLtHB8DMt45ZPWd9jaR0l
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：猪灵蛮兵堡垒守，金斧攻击仇恨久
+    options:
+      - 猪灵
+      - 猪灵蛮兵
+      - 疣猪兽
+      - 烈焰人
+    answer: 1
+    id: 5Tj6ycIU3n7jUI9AuxlzaJG0YWw3cdZl
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：磁石指南针绑，迷失方向找回忙
+    options:
+      - 磁石
+      - 指南针
+      - 重生锚
+      - 信标
+    answer: 0
+    id: lgeUFC4BKl4oPDTYGS4OfeKGf43yKMnj
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：锁链靴子合成轻，细雪行走不下陷
+    options:
+      - 铁靴子
+      - 锁链靴子
+      - 金靴子
+      - 钻石靴子
+    answer: 1
+    id: SGNeS8gw9wFUfakFbdOLaIYJNuO7Ohpf
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：细雪寒冷效果，皮革装备可御寒
+    options:
+      - 细雪机制
+      - 寒冷机制
+      - 温度机制
+      - 冰冻机制
+    answer: 0
+    id: JaxB0ZqkZ8LHG69y6RY0K1c6go902WmO
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：山羊山地冲撞强，跌落保护角掉落
+    options:
+      - 绵羊
+      - 山羊
+      - 牛
+      - 驴
+    answer: 1
+    id: reZZIoRmW006yIRYxqrkYtyZ04H7Tcdz
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：紫水晶簇生长，骨粉催熟望远镜合
+    options:
+      - 紫水晶母岩
+      - 紫水晶簇
+      - 紫水晶芽
+      - 紫水晶块
+    answer: 1
+    id: dTl8JHxCrFvvP2RPAmQ73zGrike5BSk9
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：望远镜紫水晶合，铜锭三碎片二
+    options:
+      - 望远镜
+      - 紫水晶碎片
+      - 铜锭
+      - 玻璃
+    answer: 0
+    id: UjgC5QPqf3ZbtwCzIixbx31Zxrl4chQa
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：紫水晶洞地下藏，紫水晶簇生长忙
+    options:
+      - 紫水晶洞
+      - 深暗之域
+      - 废弃矿井
+      - 地牢
+    answer: 0
+    id: wranngoMGE2CzeT51FAh1PFnxUT5d3ef
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：美西螈桶装走，挖掘疲劳攻击守
+    options:
+      - 鱼
+      - 美西螈
+      - 热带鱼
+      - 河豚
+    answer: 1
+    id: Q6o9nK9c7iUF0LAUwUdyXuy5Led6kBEs
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：遮光玻璃合成新，紫水晶碎片四
+    options:
+      - 玻璃
+      - 遮光玻璃
+      - 染色玻璃
+      - 玻璃板
+    answer: 1
+    id: 3dTMAl9R6zGqvuF5mpHgmPNaGFzybFWc
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：铜锭氧化四阶，蜜脾涂蜡止氧化
+    options:
+      - 铜块
+      - 涂蜡铜块
+      - 氧化铜块
+      - 铜锭
+    answer: 1
+    id: tBfqI63uE5COqtSNhwHUUsBDCbHPtneG
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：闪电避雷针引，铜块氧化加速
+    options:
+      - 避雷机制
+      - 氧化机制
+      - 闪电机制
+      - 铜机制
+    answer: 1
+    id: EMmRkKW1uiQkHbePtZNWmMAd4mhjW6tR
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：发光鱿鱼深海游，荧光墨囊告示亮
+    options:
+      - 鱿鱼
+      - 发光鱿鱼
+      - 美西螈
+      - 海豚
+    answer: 1
+    id: fNFyDdMcDT95Mm5yi4FrRxcvvHzGEBSJ
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：幽匿感测体振动听，红石信号频率分
+    options:
+      - 幽匿感测体
+      - 幽匿催发体
+      - 幽匿尖啸体
+      - 幽匿脉络
+    answer: 0
+    id: LoCxmyEDifirrSO6Pa5GStqRVEfL0JTz
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：回响碎片古城藏，追溯指南针合成
+    options:
+      - 回响碎片
+      - 指南针
+      - 紫水晶碎片
+      - 钻石
+    answer: 0
+    id: EMkvnXn76peADhh0QWHfIpSnEadxIn7p
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：远古城市深暗域，监守者守护宝藏
+    options:
+      - 深暗之域
+      - 远古城市
+      - 要塞
+      - 废弃传送门
+    answer: 1
+    id: S3ZvZvPKAIYHVGzmkgHGmuIUmQpLDYPG
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：监守者盲眼听声，声波攻击穿甲疼
+    options:
+      - 远古守卫者
+      - 监守者
+      - 凋灵
+      - 末影龙
+    answer: 1
+    id: KyiEt0Wf3Oitir4JlaRyyLmCDnfjJf9M
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：强化深板岩古城藏，不可破坏基岩强
+    options:
+      - 基岩
+      - 强化深板岩
+      - 深板岩
+      - 黑曜石
+    answer: 1
+    id: qTVJpAFt3refsTaxaEQXGztuTXCaEG5W
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：迅捷潜行附魔书，古城宝箱独占出
+    options:
+      - 迅捷潜行
+      - 灵魂疾行
+      - 深海探索者
+      - 冰霜行者
+    answer: 0
+    id: sKwt724i5mcIu4OpF59BBnpjOz205unq
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：幽匿尖啸体激活，监守者从地生
+    options:
+      - 尖啸机制
+      - 监守者召唤
+      - 幽匿机制
+      - 振动机制
+    answer: 1
+    id: qchKyYVg52NPoS9IS3zSfAFsEFi5imvc
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：青蛙蝌蚪水中游，小型岩浆怪吞食
+    options:
+      - 青蛙
+      - 蝾螈
+      - 鱼
+      - 海豚
+    answer: 0
+    id: q7e5WIWxZoNCqQTfgclqBNIUeWIu7Ggf
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：红树根水下生，泥块合成新方块
+    options:
+      - 红树根
+      - 红树木
+      - 泥巴
+      - 沾泥的红树根
+    answer: 0
+    id: 8LbrMX4rm6ORllY9YzJlEGP6syOJrVCo
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：泥块合成新方块，泥坯晒干变红砖
+    options:
+      - 泥块
+      - 泥坯
+      - 红砖
+      - 陶瓦
+    answer: 1
+    id: I5GtNTVZIptu6CSNF1GznIDb6YbWq69c
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：红树林沼泽生，红树根盘根错节
+    options:
+      - 红树林沼泽
+      - 沼泽
+      - 河流
+      - 海洋
+    answer: 0
+    id: BJ0BODpaMeBsIQ3GBcjEX2f9f0kJXBeD
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：蝌蚪青蛙幼体，水桶可装变青蛙
+    options:
+      - 鱼
+      - 蝌蚪
+      - 美西螈
+      - 海豚
+    answer: 1
+    id: 8Zm6aFQg4QrmhobH9veSFCZLTuoa0lno
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：沾泥的红树根，泥巴合成新方块
+    options:
+      - 红树根
+      - 沾泥的红树根
+      - 泥巴
+      - 泥块
+    answer: 1
+    id: jVxZxDroURLDWo5biwLUaTMC8S56fvg1
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：运输船合成新，箱子和船合成忙
+    options:
+      - 船
+      - 运输船
+      - 箱子
+      - 矿车
+    answer: 1
+    id: ri0Wc4aaKAsBI35InxUBbaJ4Kj2UfrXb
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：悦灵宝库跟随，音符盒音乐引
+    options:
+      - 悦灵机制
+      - 音乐机制
+      - 跟随机制
+      - 宝库机制
+    answer: 0
+    id: cfrPlkMMGy5GSZkqJro6BdlsxgzqYgaA
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：悦灵林地府邸生，物品收集音乐引
+    options:
+      - 恼鬼
+      - 悦灵
+      - 幻翼
+      - 蝙蝠
+    answer: 1
+    id: ND1F940sfgUHp36w8CzdruR7P0WMNzsh
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：幽匿尖啸体激活，监守者召唤忙
+    options:
+      - 幽匿感测体
+      - 幽匿催发体
+      - 幽匿尖啸体
+      - 幽匿脉络
+    answer: 2
+    id: 7GiSuYonEad00ZXMlc6yugch2FO8PPd2
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：山羊角山羊掉落，四种音效各不同
+    options:
+      - 山羊角
+      - 号角
+      - 音乐唱片
+      - 音符盒
+    answer: 0
+    id: xJQNVvGnDqZSl0md3G9VBgeJsLw9j1az
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：深暗之域古城藏，幽匿方块遍地生
+    options:
+      - 深暗之域
+      - 远古城市
+      - 要塞
+      - 废弃传送门
+    answer: 0
+    id: pvHrBOAUa5yVOtk3zIVEkjIkEoDURfO5
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：恼鬼唤魔者召，尖牙攻击穿墙忙
+    options:
+      - 恼鬼
+      - 悦灵
+      - 幻翼
+      - 蝙蝠
+    answer: 0
+    id: URbdP3EpXvVKjx3vjPakl5CX5DfkWmQi
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：校频幽匿感测体，红石信号频率分
+    options:
+      - 幽匿感测体
+      - 校频幽匿感测体
+      - 幽匿尖啸体
+      - 侦测器
+    answer: 1
+    id: H2FBGBjsImBr3OlAfxiIYCiXrxwITenk
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：竹板合成新木材，脚手架源材料来
+    options:
+      - 竹子
+      - 竹板
+      - 木棍
+      - 甘蔗
+    answer: 1
+    id: jf5I4E6a4uXptwc5RVdJF8oaFJ2tcjx2
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：锻造模板升级用，下界合金装备成
+    options:
+      - 锻造模板
+      - 锻造台
+      - 锻造机制
+      - 升级机制
+    answer: 0
+    id: 8VJIWVILrLtDyWhpncLSOowwzsfkIwjg
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：骆驼沙漠双驼峰，骑乘两人跳不高
+    options:
+      - 羊驼
+      - 骆驼
+      - 马
+      - 驴
+    answer: 1
+    id: s3eYZLyY2VtTcDZKtgduXgwHh7bmTMMD
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：悬挂式告示牌，锁链铁锭合成新
+    options:
+      - 告示牌
+      - 悬挂式告示牌
+      - 展示框
+      - 荧光展示框
+    answer: 1
+    id: DwAcnqgiEK9vYWXLGUNjzeH1sBd8Y09T
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：刷子考古用，可疑沙砾陶片出
+    options:
+      - 刷子
+      - 铁锹
+      - 镐
+      - 锄
+    answer: 0
+    id: 4mR8VN3C4P69Bz9Ia0lR1dZo9gFNu2wh
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：海底废墟考古点，可疑沙块陶片藏
+    options:
+      - 海底废墟
+      - 海底神殿
+      - 沉船
+      - 海洋废墟
+    answer: 0
+    id: e3LWFl1yFDyujbKdhHkL4qzszJQfAgFQ
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：嗅探兽蛋孵化长，火把花种子挖出
+    options:
+      - 熊猫
+      - 嗅探兽
+      - 狐狸
+      - 猫
+    answer: 1
+    id: QvZsshUACSzLO05aFy6stbYgK529bCzH
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：樱花树叶粉飘落，蜜蜂授粉花丛多
+    options:
+      - 橡树树叶
+      - 樱花树叶
+      - 杜鹃树叶
+      - 红树树叶
+    answer: 1
+    id: gJunohDPV24zPlle0koFtCGQPtP0g0rt
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：锻造模板复制用，七个金块钻石一
+    options:
+      - 下界合金升级模板
+      - 哨兵盔甲纹饰
+      - 锻造模板
+      - 模具
+    answer: 2
+    id: zypmsg6On8z70RXQBBT1rIFfpMJWGLkV
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：生物群系温度定，积雪冰原北极熊
+    options:
+      - 生物群系
+      - 气候系统
+      - 群系生成
+      - 世界生成
+    answer: 0
+    id: AcAsYCHzh44gaaGraq5q89GSjolyIsYR
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：青蛙蝌蚪水中游，小型岩浆怪吞食
+    options:
+      - 青蛙
+      - 蝾螈
+      - 鱼
+      - 海豚
+    answer: 0
+    id: QxIBoeF4AedeLsy0PVEs664pZkvh6cak
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：红树根水下生，泥块合成新方块
+    options:
+      - 红树根
+      - 红树木
+      - 泥巴
+      - 沾泥的红树根
+    answer: 0
+    id: NbDrdbjLlFW4wXEDiVAQk4WhQu2kWDq0
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：陶片合成装饰罐，四种图案各不同
+    options:
+      - 陶片
+      - 装饰罐
+      - 花盆
+      - 炼药锅
+    answer: 1
+    id: FBvDM6jm6KuHy11xc1HeNuISEpIIRzVI
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一结构：试炼密室刷怪笼，不祥试炼钥匙开
+    options:
+      - 试炼密室
+      - 地牢
+      - 深暗之域
+      - 要塞
+    answer: 0
+    id: CKn94lluU2lxNTrjoVxueNA1EfmWlKXV
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：旋风人试炼生，风弹攻击击退强
+    options:
+      - 烈焰人
+      - 旋风人
+      - 恶魂
+      - 潜影贝
+    answer: 1
+    id: zdlzNsmQo5A49N66H1jTsx6IFDGVjNod
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：试炼刷怪笼激活，玩家靠近怪物生
+    options:
+      - 刷怪笼
+      - 试炼刷怪笼
+      - 不祥试炼刷怪笼
+      - 刷怪蛋
+    answer: 1
+    id: 8CmRAYMZabyj1BQBs6ETy6S8cIwC99Jh
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：重锤下坠攻击强，旋风棒合成新武器
+    options:
+      - 重锤
+      - 旋风棒
+      - 风弹
+      - 三叉戟
+    answer: 0
+    id: frxlxgDtuLuPkXNxwKooc4LzVbE1Q2qw
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一机制：合成配方解锁制，知识之书全解锁
+    options:
+      - 合成配方
+      - 配方书
+      - 知识之书
+      - 合成机制
+    answer: 1
+    id: IJDMKQQ31UUh2oTGKSAZ1RrStqgEe5HU
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一生物：沼骸骷髅变种，剧毒之箭攻击强
+    options:
+      - 流浪者
+      - 沼骸
+      - 凋灵骷髅
+      - 骷髅
+    answer: 1
+    id: l1EAZULyZuaiedtVsANSf7cKKBtK9hXb
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一方块：苍白橡树新树种，苍白之园生物群
+    options:
+      - 深色橡木
+      - 苍白橡木
+      - 白桦木
+      - 金合欢木
+    answer: 1
+    id: TlTPumciTtCejPa5eWAwXBlRgVb9rbp7
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0
+  - question: 打一物品：树脂团树干粘，树脂砖合成新方块
+    options:
+      - 树脂团
+      - 树脂砖
+      - 琥珀
+      - 树液
+    answer: 0
+    id: 52msFGKDBYsvdeROcmDPiRN1oes4zZgI
+    selected: false
+    pride:
+      redpacket: 2
+      luck: 0

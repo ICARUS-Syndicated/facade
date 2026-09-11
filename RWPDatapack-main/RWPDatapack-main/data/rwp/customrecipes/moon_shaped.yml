@@ -1,0 +1,46 @@
+type: shaped
+key: nether_sword_to_moon
+pattern:
+  - " C "
+  - "DAD"
+  - " B "
+ingredients:
+  A:
+    material: NETHERITE_SWORD
+    match-mode: material
+  B:
+    material: WHITE_DYE
+    components:
+      display-name: "<white><bold><!i>月光锻片</bold>"
+      item-model: "rwskins:snow_plate"
+      lore:
+        - "<gray><!i>凛月光，照万川</gray>"
+      glint: true
+  C:
+    material: QUARTZ
+    match-mode: material
+  D:
+    material: SNOWBALL
+    match-mode: material
+    
+result:
+  material: NETHERITE_SWORD
+  amount: 1
+  components:
+    prefix: "<color:#FAFAFF><bold><!i>月华·<bold:false></color>"
+    item-model: "rwskins:moon_sword"
+    maxdamage: 2026
+    lore:
+      - "<color:#dddddd><!i>长夜如沐，月光如瀑"
+
+special:
+  target-material: NETHERITE_SWORD
+  source-slot: 4
+  copy-input: true
+  amount: 1
+  components:
+    prefix: "<color:#FAFAFF><bold><!i>月华·<bold:false></color>"
+    item-model: "rwskins:moon_sword"
+    maxdamage: 2026
+    lore:
+      - "<color:#dddddd><!i>长夜如沐，月光如瀑"
